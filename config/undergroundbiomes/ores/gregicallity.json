@@ -1,0 +1,263 @@
+[
+  {
+    "internalOreName": "gregtech:ore_alunite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/metallic/ore",
+    "oreDirectories": [],
+    "color": "#E1B441",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_andradite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/gem_vertical/ore",
+    "oreDirectories": [],
+    "color": "#967800",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_asbestos_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/sand/ore",
+    "oreDirectories": [],
+    "color": "#E6E6E6",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_basaltic_mineral_sand_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/sand/ore",
+    "oreDirectories": [],
+    "color": "#283228",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_diatomite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/dull/ore",
+    "oreDirectories": [],
+    "color": "#E1E1E1",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_dolomite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/flint/ore",
+    "oreDirectories": [],
+    "color": "#E1CDCD",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_fullers_earth_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/rough/ore",
+    "oreDirectories": [],
+    "color": "#A0A078",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_garnet_sand_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/sand/ore",
+    "oreDirectories": [],
+    "color": "#C86400",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_glauconite_sand_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/sand/ore",
+    "oreDirectories": [],
+    "color": "#82B43C",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_granitic_mineral_sand_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/sand/ore",
+    "oreDirectories": [],
+    "color": "#283C3C",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_gypsum_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/fine/ore",
+    "oreDirectories": [],
+    "color": "#E6E6FA",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_iridium_metal_residue_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/rough/ore",
+    "oreDirectories": [],
+    "color": "#846649",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_kaolinite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/dull/ore",
+    "oreDirectories": [],
+    "color": "#F5EBEB",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_kyanite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/flint/ore",
+    "oreDirectories": [],
+    "color": "#6E6EFA",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_mica_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/fine/ore",
+    "oreDirectories": [],
+    "color": "#C3C3CD",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_niter_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/flint/ore",
+    "oreDirectories": [],
+    "color": "#FFC8C8",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_palladium_metallic_powder_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/metallic/ore",
+    "oreDirectories": [],
+    "color": "#CED0DD",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_platinum_metallic_powder_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/metallic/ore",
+    "oreDirectories": [],
+    "color": "#FFFF99",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_pollucite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/rough/ore",
+    "oreDirectories": [],
+    "color": "#F0D2D2",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_prasiolite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/quartz/ore",
+    "oreDirectories": [],
+    "color": "#9EB749",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_precious_metal_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/shiny/ore",
+    "oreDirectories": [],
+    "color": "#B99023",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_rarest_metal_residue_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/rough/ore",
+    "oreDirectories": [],
+    "color": "#644629",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_tellurium_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/metallic/ore",
+    "oreDirectories": [],
+    "color": "#FFFFFF",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_trona_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/rough/ore",
+    "oreDirectories": [],
+    "color": "#87875F",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_uranium_radioactive_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/metallic/ore",
+    "oreDirectories": [],
+    "color": "#32F032",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_vermiculite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/rough/ore",
+    "oreDirectories": [],
+    "color": "#C8B40F",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_wollastonite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/rough/ore",
+    "oreDirectories": [],
+    "color": "#F0F0F0",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_zeolite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/rough/ore",
+    "oreDirectories": [],
+    "color": "#F0E6E6",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_zirkelite_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/dull/ore",
+    "oreDirectories": [],
+    "color": "#6B5E6A",
+    "lightValue": -1,
+    "alphaOverlay": true
+  }
+]
