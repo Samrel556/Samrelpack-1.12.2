@@ -4,6 +4,7 @@ Minecraft Version 1.12.2
 Forge Version 14.23.5.2854
 
 To create a playable instance:
+
 	-Select "Add Instance"
 	-Select the 1.12.2 minecraft version from the list
 	-Name it "SamrelPack-1.12.2"
