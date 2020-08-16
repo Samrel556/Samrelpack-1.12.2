@@ -141,6 +141,8 @@ for i in 1 to 6 {
     mods.jei.JEI.hide(<gregtech:ore_zeolite_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_zinc_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_zirkelite_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:ore_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:ore_enriched_naquadric_compound_0>.definition.makeStack(i));
 }
 for i in 8 to 14{
     mods.jei.JEI.hide(<gregtech:ore_almandine_0>.definition.makeStack(i));
@@ -283,6 +285,8 @@ for i in 8 to 14{
     mods.jei.JEI.hide(<gregtech:ore_zeolite_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_zinc_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_zirkelite_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:ore_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:ore_enriched_naquadric_compound_0>.definition.makeStack(i));
 }
 for i in 2 to 8{
     if (i != 5){
@@ -435,6 +439,8 @@ for i in 2 to 8{
         mods.jei.JEI.hide(<undergroundbiomes:igneous_stone_lapis_ore>.definition.makeStack(i));
         mods.jei.JEI.hide(<undergroundbiomes:igneous_stone_aroma1997sdimension_miningore>.definition.makeStack(i));
         mods.jei.JEI.hide(<undergroundbiomes:igneous_stone_aroma1997sdimension_miningore_1>.definition.makeStack(i));
+        mods.jei.JEI.hide(<undergroundbiomes:igneous_stone_gregtech_ore_naquadric_compound_0>.definition.makeStack(i));
+        mods.jei.JEI.hide(<undergroundbiomes:igneous_stone_gregtech_ore_enriched_naquadric_compound_0>.definition.makeStack(i));
     }
 }
 for i in 0 to 8{
@@ -588,6 +594,8 @@ for i in 0 to 8{
         mods.jei.JEI.hide(<undergroundbiomes:metamorphic_stone_lapis_ore>.definition.makeStack(i));
         mods.jei.JEI.hide(<undergroundbiomes:metamorphic_stone_aroma1997sdimension_miningore>.definition.makeStack(i));
         mods.jei.JEI.hide(<undergroundbiomes:metamorphic_stone_aroma1997sdimension_miningore_1>.definition.makeStack(i));
+        mods.jei.JEI.hide(<undergroundbiomes:metamorphic_stone_gregtech_ore_naquadric_compound_0>.definition.makeStack(i));
+        mods.jei.JEI.hide(<undergroundbiomes:metamorphic_stone_gregtech_ore_enriched_naquadric_compound_0>.definition.makeStack(i));
     }
 }
 for i in 0 to 8{
@@ -740,6 +748,8 @@ for i in 0 to 8{
     mods.jei.JEI.hide(<undergroundbiomes:sedimentary_stone_lapis_ore>.definition.makeStack(i));
     mods.jei.JEI.hide(<undergroundbiomes:sedimentary_stone_aroma1997sdimension_miningore>.definition.makeStack(i));
     mods.jei.JEI.hide(<undergroundbiomes:sedimentary_stone_aroma1997sdimension_miningore_1>.definition.makeStack(i));
+    mods.jei.JEI.hide(<undergroundbiomes:sedimentary_stone_gregtech_ore_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<undergroundbiomes:sedimentary_stone_gregtech_ore_enriched_naquadric_compound_0>.definition.makeStack(i));
 }
 
 // Poor, Rich And Pure Ores
@@ -1165,4 +1175,10 @@ for i in 0 to 14 {
     mods.jei.JEI.hide(<gregtech:poor_ore_zirkelite_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:pure_ore_zirkelite_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:rich_ore_zirkelite_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:poor_ore_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:pure_ore_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:rich_ore_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:poor_ore_enriched_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:pure_ore_enriched_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:rich_ore_enriched_naquadric_compound_0>.definition.makeStack(i));
 }

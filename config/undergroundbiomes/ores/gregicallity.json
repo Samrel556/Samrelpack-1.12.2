@@ -135,6 +135,24 @@
     "alphaOverlay": true
   },
   {
+    "internalOreName": "gregtech:ore_naquadric_compound_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/metallic/ore",
+    "oreDirectories": [],
+    "color": "#323232",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
+    "internalOreName": "gregtech:ore_enriched_naquadric_compound_0",
+    "meta": 0,
+    "overlay": "gregtech:blocks/material_sets/metallic/ore",
+    "oreDirectories": [],
+    "color": "#282828",
+    "lightValue": -1,
+    "alphaOverlay": true
+  },
+  {
     "internalOreName": "gregtech:ore_niter_0",
     "meta": 0,
     "overlay": "gregtech:blocks/material_sets/flint/ore",

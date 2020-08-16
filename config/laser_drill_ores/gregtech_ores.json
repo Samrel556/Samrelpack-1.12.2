@@ -1601,7 +1601,7 @@
         ]
     },
     {
-        "item" : "gregtech:ore_naquadah_0",
+        "item" : "gregtech:ore_naquadric_compound_0",
         "color" : 0,
         "rarity" : [
             {
@@ -1628,7 +1628,7 @@
         ]
     },
     {
-        "item" : "gregtech:ore_naquadah_enriched_0",
+        "item" : "gregtech:ore_enriched_naquadric_compound_0",
         "color" : 0,
         "rarity" : [
             {
