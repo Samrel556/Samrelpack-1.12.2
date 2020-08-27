@@ -142,6 +142,7 @@ for i in 1 to 6 {
     mods.jei.JEI.hide(<gregtech:ore_zinc_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_zirkelite_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:ore_naquadriatic_compound_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_enriched_naquadric_compound_0>.definition.makeStack(i));
 }
 for i in 8 to 14{
@@ -1178,6 +1179,9 @@ for i in 0 to 14 {
     mods.jei.JEI.hide(<gregtech:poor_ore_naquadric_compound_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:pure_ore_naquadric_compound_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:rich_ore_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:poor_ore_naquadriatic_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:pure_ore_naquadriatic_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:rich_ore_naquadriatic_compound_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:poor_ore_enriched_naquadric_compound_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:pure_ore_enriched_naquadric_compound_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:rich_ore_enriched_naquadric_compound_0>.definition.makeStack(i));
