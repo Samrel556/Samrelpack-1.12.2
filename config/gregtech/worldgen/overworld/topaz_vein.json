@@ -93,10 +93,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphictopaz",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_topaz_0",
-                  "type": "quartzite"
+                  "type": "topaz"
                 }
               },
               {
@@ -273,10 +273,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicblue_topaz",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_blue_topaz_0",
-                  "type": "quartzite"
+                  "type": "blue_topaz"
                 }
               },
               {

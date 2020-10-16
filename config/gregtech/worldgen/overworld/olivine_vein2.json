@@ -93,10 +93,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicprasiolite",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_prasiolite_0",
-                  "type": "quartzite"
+                  "type": "prasiolite"
                 }
               },
               {
@@ -273,10 +273,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicbentonite",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_bentonite_0",
-                  "type": "quartzite"
+                  "type": "bentonite"
                 }
               },
               {
@@ -453,10 +453,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicmagnesite",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_magnesite_0",
-                  "type": "quartzite"
+                  "type": "magnesite"
                 }
               },
               {
@@ -633,10 +633,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicolivine",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_olivine_0",
-                  "type": "quartzite"
+                  "type": "olivine"
                 }
               },
               {
@@ -813,10 +813,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicglauconite",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_glauconite_0",
-                  "type": "quartzite"
+                  "type": "glauconite"
                 }
               },
               {

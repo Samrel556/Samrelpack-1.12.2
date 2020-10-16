@@ -14,7 +14,7 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": "30",
+          "weight": 30,
           "value": {
             "type": "state_match",
             "default": {
@@ -194,7 +194,7 @@
           }
         },
         {
-          "weight": "30",
+          "weight": 30,
           "value": {
             "type": "state_match",
             "default": {
@@ -374,7 +374,7 @@
           }
         },
         {
-          "weight": "20",
+          "weight": 20,
           "value": {
             "type": "state_match",
             "default": {

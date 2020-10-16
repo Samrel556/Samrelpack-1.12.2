@@ -3,6 +3,7 @@
   "density": 0.6,
   "max_height": 50,
   "min_height": 20,
+  "surface_stone_material": "platinum",
 
   "generator": {
     "type": "ellipsoid",
@@ -13,7 +14,7 @@
     "value": {
       "type": "weight_random",
       "values": [
-		{
+        {
           "weight": 45,
           "value": {
             "type": "state_match",
@@ -93,10 +94,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicplatinum_metallic_powder",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_platinum_metallic_powder_0",
-                  "type": "quartzite"
+                  "type": "platinum_metallic_powder"
                 }
               },
               {
@@ -193,7 +194,7 @@
             ]
           }
         },
-		{
+        {
           "weight": 35,
           "value": {
             "type": "state_match",
@@ -273,10 +274,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicpalladium_metallic_powder",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_palladium_metallic_powder_0",
-                  "type": "quartzite"
+                  "type": "palladium_metallic_powder"
                 }
               },
               {
@@ -373,7 +374,7 @@
             ]
           }
         },
-		{
+        {
           "weight": 20,
           "value": {
             "type": "state_match",
@@ -453,10 +454,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicrarest_metal_residue",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_rarest_metal_residue_0",
-                  "type": "quartzite"
+                  "type": "rarest_metal_residue"
                 }
               },
               {

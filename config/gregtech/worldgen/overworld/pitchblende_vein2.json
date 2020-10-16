@@ -3,7 +3,7 @@
   "density": 0.5,
   "max_height": 40,
   "min_height": 10,
-
+  "surface_stone_material": "uranium_radioactive",
   "generator": {
     "type": "ellipsoid",
     "radius": [
@@ -17,7 +17,7 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 100,
+          "weight": 80,
           "value": {
             "type": "state_match",
             "default": {
@@ -96,10 +96,10 @@
                 }
               },
               {
-                "predicate": "ore_dict:stoneMetamorphicQuartzite",
+                "predicate": "ore_dict:stoneMetamorphicuranium_radioactive",
                 "value": {
                   "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0",
-                  "type": "quartzite"
+                  "type": "uranium_radioactive"
                 }
               },
               {
