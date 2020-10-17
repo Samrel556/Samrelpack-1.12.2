@@ -287,6 +287,7 @@ for i in 8 to 14{
     mods.jei.JEI.hide(<gregtech:ore_zinc_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_zirkelite_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_naquadric_compound_0>.definition.makeStack(i));
+    mods.jei.JEI.hide(<gregtech:ore_naquadriatic_compound_0>.definition.makeStack(i));
     mods.jei.JEI.hide(<gregtech:ore_enriched_naquadric_compound_0>.definition.makeStack(i));
 }
 for i in 2 to 8{
