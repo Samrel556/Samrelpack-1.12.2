@@ -51,3 +51,15 @@ recipes.addShaped(<pressure:pipe>*3,
 [[plateSteel,plateSteel,plateSteel]
 ,[null,plateSiliconRubber,null]
 ,[plateSteel,plateSteel,plateSteel]]);
+
+recipes.removeShaped(<pressure:check_valve>);
+recipes.addShaped(<pressure:check_valve>,
+[[plateSteel,plateSteel,plateSteel]
+,[<pressure:interface>,<minecraft:lever>,<pressure:interface>]
+,[plateSteel,plateSteel,plateSteel]]);
+
+recipes.removeShaped(<pressure:pipe_sensor>);
+recipes.addShaped(<pressure:pipe_sensor>,
+[[plateSteel,plateSteel,plateSteel]
+,[<pressure:interface>,<minecraft:redstone_torch>,<pressure:interface>]
+,[plateSteel,plateSteel,plateSteel]]);
