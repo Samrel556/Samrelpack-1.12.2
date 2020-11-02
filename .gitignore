@@ -10,3 +10,7 @@
 !/resources/
 !/resources/**
 
+# Ignore spammy stuff
+/config/jei/worldSettings.cfg
+/config/InvTweaks.cfg
+/config/splash.properties
