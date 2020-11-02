@@ -10,7 +10,7 @@ val chemBath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
 val blastFurnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
 val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 
-// Gregtech machine Recipes
+// Gregtech Machine Recipes
 
 // Alloy Smelter
     alloySmelter.recipeBuilder().inputs(<ore:dustLead>,<ore:dustObsidian>*4).outputs(<thermalfoundation:glass:3>*2).duration(40).EUt(120).buildAndRegister();

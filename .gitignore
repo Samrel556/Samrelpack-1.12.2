@@ -1,0 +1,12 @@
+# Ignore everything
+/*
+
+# Include our configs and CT scripts
+!.gitignore
+!/config/
+!/config/**
+!/scripts/
+!/scripts/**
+!/resources/
+!/resources/**
+
