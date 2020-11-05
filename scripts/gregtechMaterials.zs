@@ -12,4 +12,5 @@ lumium.addFlags(["GENERATE_ROD","GENERATE_PLATE","GENERATE_GEAR","NO_SMELTING","
 val signalum = MaterialRegistry.createIngotMaterial(707, "signalum", 0xce4b00, "shiny", 2, [<material:redstone>*1, <material:copper>*3, <material:silver>*1], 0, 0, 0, 4500);
 signalum.addFlags(["GENERATE_ROD","GENERATE_PLATE","GENERATE_GEAR","NO_SMELTING","DISABLE_DECOMPOSITION"]);
 
-
+val obsidian = MaterialRegistry.get("obsidian");
+obsidian.addFlags("GENERATE_PLATE");
