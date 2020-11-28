@@ -70,7 +70,12 @@ val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
     chemBath.recipeBuilder().inputs(<thermaldynamics:duct_64:3>).fluidInputs(<liquid:aerotheum>*100).outputs(<thermaldynamics:duct_64:0>).duration(20).EUt(30).buildAndRegister();
 
 // Blast Furnace
-    blastFurnace.recipeBuilder().inputs(<nuclearcraft:alloy:8>).fluidInputs(<liquid:glowstone>*250).outputs(<gregtech:meta_item_1:11706>).duration(4500).EUt(120).property("temperature", 5400).buildAndRegister();
+    blastFurnace.recipeBuilder()
+        .inputs(<nuclearcraft:alloy:8>)
+        .fluidInputs(<liquid:glowstone>*250)
+        .outputs(<gregtech:meta_item_1:11706>)
+        .duration(4500).EUt(120)
+        .property("temperature", 5400).buildAndRegister();
     blastFurnace.recipeBuilder().inputs(<nuclearcraft:alloy:7>).fluidInputs(<liquid:redstone>*250).outputs(<gregtech:meta_item_1:11707>).duration(8820).EUt(120).property("temperature", 4500).buildAndRegister();
 
 // Mixer 

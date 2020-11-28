@@ -1,4 +1,14 @@
 material.lumium=Lumium
 material.signalum=Signalum
-material.enderium=Enderium
 material.constantan=Constantan
+material.zircaloy=Zircaloy
+material.lithium_manganese_dioxide=Lithium Manganese Dioxide
+material.tough=Tough Alloy
+material.ferroboron=Ferroboron
+material.magnesium_diboride=Magnesium Diboride
+material.hard_carbon=Hard Carbon Alloy
+material.thermoconducting=Thermoconducting Alloy
+material.extreme=Extreme Alloy
+material.h_s_l_a_steel=HSLA Steel
+material.silicon_carbide=Silicon Carbide
+material.sic_sic_cmc=Sic-Sic Ceramic Matrix
