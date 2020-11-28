@@ -374,28 +374,148 @@ val dustBoron = <gregtech:meta_item_1:2009>;
         .outputs(<nuclearcraft:fuel_americium:3>)
         .duration(1600).EUt(48).buildAndRegister();
 
-    recipes.remove(<nuclearcraft:fuel_type:0>);
+    recipes.remove(<nuclearcraft:fuel_curium:0>);
     mixer.recipeBuilder()
-        .inputs([<ore:ingotIsotope1>*1, <ore:ingotIsotope2>*8])
-        .outputs(<nuclearcraft:fuel_type:0>)
+        .inputs([<ore:ingotCurium243>*1, <ore:ingotCurium246>*8])
+        .outputs(<nuclearcraft:fuel_curium:0>)
         .duration(1600).EUt(48).buildAndRegister();
 
-    recipes.remove(<nuclearcraft:fuel_type:1>);
+    recipes.remove(<nuclearcraft:fuel_curium:1>);
     mixer.recipeBuilder()
-        .inputs([<ore:ingotIsotope1Oxide>*1, <ore:ingotIsotope2Oxide>*8])
-        .outputs(<nuclearcraft:fuel_type:1>)
+        .inputs([<ore:ingotCurium243Oxide>*1, <ore:ingotCurium246Oxide>*8])
+        .outputs(<nuclearcraft:fuel_curium:1>)
         .duration(1600).EUt(48).buildAndRegister();
 
-    recipes.remove(<nuclearcraft:fuel_type:2>);
+    recipes.remove(<nuclearcraft:fuel_curium:2>);
     mixer.recipeBuilder()
-        .inputs([<ore:ingotIsotope1>*4, <ore:ingotIsotope2>*5])
-        .outputs(<nuclearcraft:fuel_type:2>)
+        .inputs([<ore:ingotCurium243>*4, <ore:ingotCurium246>*5])
+        .outputs(<nuclearcraft:fuel_curium:2>)
         .duration(1600).EUt(48).buildAndRegister();
 
-    recipes.remove(<nuclearcraft:fuel_type:3>);
+    recipes.remove(<nuclearcraft:fuel_curium:3>);
     mixer.recipeBuilder()
-        .inputs([<ore:ingotIsotope1Oxide>*4, <ore:ingotIsotope2Oxide>*5])
-        .outputs(<nuclearcraft:fuel_type:3>)
+        .inputs([<ore:ingotCurium243Oxide>*4, <ore:ingotCurium246Oxide>*5])
+        .outputs(<nuclearcraft:fuel_curium:3>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_curium:4>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCurium245>*1, <ore:ingotCurium246>*8])
+        .outputs(<nuclearcraft:fuel_curium:4>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_curium:5>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCurium245Oxide>*1, <ore:ingotCurium246Oxide>*8])
+        .outputs(<nuclearcraft:fuel_curium:5>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_curium:6>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCurium245>*4, <ore:ingotCurium246>*5])
+        .outputs(<nuclearcraft:fuel_curium:6>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_curium:7>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCurium245Oxide>*4, <ore:ingotCurium246Oxide>*5])
+        .outputs(<nuclearcraft:fuel_curium:7>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_curium:8>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCurium247>*1, <ore:ingotCurium246>*8])
+        .outputs(<nuclearcraft:fuel_curium:8>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_curium:9>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCurium247Oxide>*1, <ore:ingotCurium246Oxide>*8])
+        .outputs(<nuclearcraft:fuel_curium:9>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_curium:10>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCurium247>*4, <ore:ingotCurium246>*5])
+        .outputs(<nuclearcraft:fuel_curium:10>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_curium:11>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCurium247Oxide>*4, <ore:ingotCurium246Oxide>*5])
+        .outputs(<nuclearcraft:fuel_curium:11>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_berkelium:0>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotBerkelium248>*1, <ore:ingotBerkelium247>*8])
+        .outputs(<nuclearcraft:fuel_berkelium:0>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_berkelium:1>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotBerkelium248Oxide>*1, <ore:ingotBerkelium247Oxide>*8])
+        .outputs(<nuclearcraft:fuel_berkelium:1>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_berkelium:2>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotBerkelium248>*4, <ore:ingotBerkelium247>*5])
+        .outputs(<nuclearcraft:fuel_berkelium:2>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_berkelium:3>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotBerkelium248Oxide>*4, <ore:ingotBerkelium247Oxide>*5])
+        .outputs(<nuclearcraft:fuel_berkelium:3>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_californium:0>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCalifornium249>*1, <ore:ingotCalifornium252>*8])
+        .outputs(<nuclearcraft:fuel_californium:0>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_californium:1>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCalifornium249Oxide>*1, <ore:ingotCalifornium252Oxide>*8])
+        .outputs(<nuclearcraft:fuel_californium:1>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_californium:2>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCalifornium249>*4, <ore:ingotCalifornium252>*5])
+        .outputs(<nuclearcraft:fuel_californium:2>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_californium:3>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCalifornium249Oxide>*4, <ore:ingotCalifornium252Oxide>*5])
+        .outputs(<nuclearcraft:fuel_californium:3>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_californium:4>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCalifornium251>*1, <ore:ingotCalifornium252>*8])
+        .outputs(<nuclearcraft:fuel_californium:4>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_californium:5>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCalifornium251Oxide>*1, <ore:ingotCalifornium252Oxide>*8])
+        .outputs(<nuclearcraft:fuel_californium:5>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_californium:6>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCalifornium251>*4, <ore:ingotCalifornium252>*5])
+        .outputs(<nuclearcraft:fuel_californium:6>)
+        .duration(1600).EUt(48).buildAndRegister();
+
+    recipes.remove(<nuclearcraft:fuel_californium:7>);
+    mixer.recipeBuilder()
+        .inputs([<ore:ingotCalifornium251Oxide>*4, <ore:ingotCalifornium252Oxide>*5])
+        .outputs(<nuclearcraft:fuel_californium:7>)
         .duration(1600).EUt(48).buildAndRegister();
 
 // Crafting Table Recipes
