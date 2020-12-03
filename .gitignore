@@ -9,6 +9,8 @@
 !/scripts/**
 !/resources/
 !/resources/**
+!/mods/
+!mods/**
 
 # Ignore spammy stuff
 /config/jei/worldSettings.cfg
