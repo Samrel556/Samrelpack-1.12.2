@@ -47,6 +47,9 @@ val siliconCarbide = MaterialRegistry.createIngotMaterial(717, "silicon_carbide"
 val sicSicCmc = MaterialRegistry.createIngotMaterial(718, "sic_sic_cmc", 0x726E64, "DULL", 1, [<material:carbon>*1, <material:silicon>*1]);
 sicSicCmc.addFlags("GENERATE_PLATE");
 
+val enrichedIron = MaterialRegistry.createIngotMaterial(719, "quartz_enriched_iron", 0xF4F3F1, "METALLIC", 1, [<material:iron>*1]);
+enrichedIron.addFlags("GENERATE_PLATE","GENERATE_FINE_WIRE");
+
 MaterialRegistry.get("obsidian").addFlags("GENERATE_PLATE");
 
 MaterialRegistry.get("germanium").addFlags("GENERATE_PLATE");
