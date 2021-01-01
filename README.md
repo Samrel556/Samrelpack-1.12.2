@@ -18,7 +18,7 @@ To create a playable instance:
 	-Now download the zip version of the repository anywhere you like
 	-Right click the instance
 	-Select "Instance Folder"
-	-Extract files from the zip outside of the .minecraft folder
-	-Move contents of extracted zip into the .minecraft folder
+	-Extract folder from the zip outside of the .minecraft folder
+	-Move contents of extracted folder into the .minecraft folder
 	-Launch the instance
 	-Now you can play!
