@@ -628,29 +628,85 @@ recipes.addShaped(<nuclearcraft:fusion_connector>,
 ,[<ore:wireGtSingleLuvSuperconductor>,frameNuclear,<ore:wireGtSingleLuvSuperconductor>]
 ,[plateSteel,circuitLUV,plateSteel]]);
 
+val RtgUranium = <nuclearcraft:rtg_uranium>;
 recipes.remove(<nuclearcraft:rtg_uranium>);
 recipes.addShaped(<nuclearcraft:rtg_uranium>,
 [[plateBasic,plateGermanium,plateBasic]
 ,[plateSilicon,<ore:blockUranium238>,plateSilicon]
 ,[plateBasic,plateGermanium,plateBasic]]);
 
+val RtgUraniumCompact = <notenoughrtgs:rtg_uranium_compact>;
+recipes.remove(<notenoughrtgs:rtg_uranium_compact>);
+recipes.addShaped(<notenoughrtgs:rtg_uranium_compact>,
+[[RtgUranium,RtgUranium,RtgUranium]
+,[RtgUranium,plateTough,RtgUranium]
+,[RtgUranium,RtgUranium,RtgUranium]]);
+
+recipes.remove(<notenoughrtgs:rtg_uranium_dense>);
+recipes.addShaped(<notenoughrtgs:rtg_uranium_dense>,
+[[RtgUraniumCompact,RtgUraniumCompact,RtgUraniumCompact]
+,[RtgUraniumCompact,plateExtreme,RtgUraniumCompact]
+,[RtgUraniumCompact,RtgUraniumCompact,RtgUraniumCompact]]);
+
+val RtgPlutonium = <nuclearcraft:rtg_plutonium>;
 recipes.remove(<nuclearcraft:rtg_plutonium>);
 recipes.addShaped(<nuclearcraft:rtg_plutonium>,
 [[plateAdvanced,plateGermanium,plateAdvanced]
 ,[plateSilicon,<ore:ingotPlutonium238>,plateSilicon]
 ,[plateAdvanced,plateGermanium,plateAdvanced]]);
 
+val RtgPlutoniumCompact = <notenoughrtgs:rtg_plutonium_compact>;
+recipes.remove(<notenoughrtgs:rtg_plutonium_compact>);
+recipes.addShaped(<notenoughrtgs:rtg_plutonium_compact>,
+[[RtgPlutonium,RtgPlutonium,RtgPlutonium]
+,[RtgPlutonium,plateTough,RtgPlutonium]
+,[RtgPlutonium,RtgPlutonium,RtgPlutonium]]);
+
+recipes.remove(<notenoughrtgs:rtg_plutonium_dense>);
+recipes.addShaped(<notenoughrtgs:rtg_plutonium_dense>,
+[[RtgPlutoniumCompact,RtgPlutoniumCompact,RtgPlutoniumCompact]
+,[RtgPlutoniumCompact,plateExtreme,RtgPlutoniumCompact]
+,[RtgPlutoniumCompact,RtgPlutoniumCompact,RtgPlutoniumCompact]]);
+
+val RtgAmericium = <nuclearcraft:rtg_americium>;
 recipes.remove(<nuclearcraft:rtg_americium>);
 recipes.addShaped(<nuclearcraft:rtg_americium>,
 [[plateAdvanced,plateGermanium,plateAdvanced]
 ,[plateSilicon,<ore:ingotAmericium241>,plateSilicon]
 ,[plateAdvanced,plateGermanium,plateAdvanced]]);
 
+val RtgAmericiumCompact = <notenoughrtgs:rtg_americium_compact>;
+recipes.remove(<notenoughrtgs:rtg_americium_compact>);
+recipes.addShaped(<notenoughrtgs:rtg_americium_compact>,
+[[RtgAmericium,RtgAmericium,RtgAmericium]
+,[RtgAmericium,plateTough,RtgAmericium]
+,[RtgAmericium,RtgAmericium,RtgAmericium]]);
+
+recipes.remove(<notenoughrtgs:rtg_americium_dense>);
+recipes.addShaped(<notenoughrtgs:rtg_americium_dense>,
+[[RtgAmericiumCompact,RtgAmericiumCompact,RtgAmericiumCompact]
+,[RtgAmericiumCompact,plateExtreme,RtgAmericiumCompact]
+,[RtgAmericiumCompact,RtgAmericiumCompact,RtgAmericiumCompact]]);
+
+val RtgCalifornium = <nuclearcraft:rtg_californium>;
 recipes.remove(<nuclearcraft:rtg_californium>);
 recipes.addShaped(<nuclearcraft:rtg_californium>,
 [[plateAdvanced,plateGermanium,plateAdvanced]
 ,[plateSilicon,<ore:ingotCalifornium250>,plateSilicon]
 ,[plateAdvanced,plateGermanium,plateAdvanced]]);
+
+val RtgCaliforniumCompact = <notenoughrtgs:rtg_californium_compact>;
+recipes.remove(<notenoughrtgs:rtg_californium_compact>);
+recipes.addShaped(<notenoughrtgs:rtg_californium_compact>,
+[[RtgCalifornium,RtgCalifornium,RtgCalifornium]
+,[RtgCalifornium,plateTough,RtgCalifornium]
+,[RtgCalifornium,RtgCalifornium,RtgCalifornium]]);
+
+recipes.remove(<notenoughrtgs:rtg_californium_dense>);
+recipes.addShaped(<notenoughrtgs:rtg_californium_dense>,
+[[RtgCaliforniumCompact,RtgCaliforniumCompact,RtgCaliforniumCompact]
+,[RtgCaliforniumCompact,plateExtreme,RtgCaliforniumCompact]
+,[RtgCaliforniumCompact,RtgCaliforniumCompact,RtgCaliforniumCompact]]);
 
 recipes.remove(<nuclearcraft:solar_panel_basic>);
 recipes.addShaped(<nuclearcraft:solar_panel_basic>,
