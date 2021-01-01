@@ -15,7 +15,7 @@ To create a playable instance:
 	-Launch for first time set up
 	-You can close the instance editor window if you want
 	-Close Minecraft when its done loading
-	-Now download the zip version of the repository anywhere you like
+	-Now download the zip version of the latest Release from the right hand side anywhere you like
 	-Right click the instance
 	-Select "Instance Folder"
 	-Extract folder from the zip outside of the .minecraft folder
