@@ -1,7 +1,7 @@
 [
     {
         "item" : "gregtech:ore_apatite_0",
-        "color" : 0,
+        "color" : 3,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -21,7 +21,7 @@
     },
     {
         "item" : "gregtech:ore_phosphor_0",
-        "color" : 0,
+        "color" : 4,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -41,7 +41,7 @@
     },
     {
         "item" : "gregtech:ore_basaltic_mineral_sand_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -61,7 +61,7 @@
     },
     {
         "item" : "gregtech:ore_granitic_mineral_sand_0",
-        "color" : 0,
+        "color" : 9,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -81,7 +81,7 @@
     },
     {
         "item" : "gregtech:ore_fullers_earth_0",
-        "color" : 0,
+        "color" : 13,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -135,7 +135,7 @@
     },
     {
         "item" : "gregtech:ore_bauxite_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -155,7 +155,7 @@
     },
     {
         "item" : "gregtech:ore_aluminium_0",
-        "color" : 0,
+        "color" : 3,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -175,7 +175,7 @@
     },
     {
         "item" : "gregtech:ore_ilmenite_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -195,7 +195,7 @@
     },
     {
         "item" : "gregtech:ore_rutile_0",
-        "color" : 0,
+        "color" : 2,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -215,7 +215,7 @@
     },
     {
         "item" : "gregtech:ore_beryllium_0",
-        "color" : 0,
+        "color" : 13,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -242,7 +242,7 @@
     },
     {
         "item" : "gregtech:ore_emerald_0",
-        "color" : 0,
+        "color" : 5,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -269,7 +269,7 @@
     },
     {
         "item" : "gregtech:ore_thorium_0",
-        "color" : 0,
+        "color" : 13,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -296,7 +296,7 @@
     },
     {
         "item" : "gregtech:ore_bornite_0",
-        "color" : 0,
+        "color" : 14,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -316,7 +316,7 @@
     },
     {
         "item" : "gregtech:ore_chalcocite_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -336,7 +336,7 @@
     },
     {
         "item" : "gregtech:ore_enargite_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -356,7 +356,7 @@
     },
     {
         "item" : "gregtech:ore_copper_0",
-        "color" : 0,
+        "color" : 1,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -411,7 +411,7 @@
     },
     {
         "item" : "gregtech:ore_cassiterite_sand_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -431,7 +431,7 @@
     },
     {
         "item" : "gregtech:ore_garnet_sand_0",
-        "color" : 0,
+        "color" : 1,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -478,7 +478,7 @@
     },
     {
         "item" : "gregtech:ore_diatomite_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -498,7 +498,7 @@
     },
     {
         "item" : "gregtech:ore_chalcopyrite_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -532,7 +532,7 @@
     },
     {
         "item" : "gregtech:ore_iron_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -573,7 +573,7 @@
     },
     {
         "item" : "gregtech:ore_pyrite_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -607,7 +607,7 @@
     },
     {
         "item" : "gregtech:ore_vermiculite_0",
-        "color" : 0,
+        "color" : 4,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -627,7 +627,7 @@
     },
     {
         "item" : "gregtech:ore_cassiterite_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -661,7 +661,7 @@
     },
     {
         "item" : "gregtech:ore_alunite_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -681,7 +681,7 @@
     },
     {
         "item" : "gregtech:ore_lignite_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -708,7 +708,7 @@
     },
     {
         "item" : "gregtech:ore_coal_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -742,7 +742,7 @@
     },
     {
         "item" : "gregtech:ore_graphite_0",
-        "color" : 0,
+        "color" : 7,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -762,7 +762,7 @@
     },
     {
         "item" : "gregtech:ore_diamond_0",
-        "color" : 0,
+        "color" : 9,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -782,7 +782,7 @@
     },
     {
         "item" : "gregtech:ore_dolomite_0",
-        "color" : 0,
+        "color" : 6,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -802,7 +802,7 @@
     },
     {
         "item" : "gregtech:ore_wollastonite_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -822,7 +822,7 @@
     },
     {
         "item" : "gregtech:ore_trona_0",
-        "color" : 0,
+        "color" : 13,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -842,7 +842,7 @@
     },
     {
         "item" : "gregtech:ore_andradite_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -862,7 +862,7 @@
     },
     {
         "item" : "gregtech:ore_galena_0",
-        "color" : 0,
+        "color" : 10,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -909,7 +909,7 @@
     },
     {
         "item" : "gregtech:ore_lead_0",
-        "color" : 0,
+        "color" : 10,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -929,7 +929,7 @@
     },
     {
         "item" : "gregtech:ore_brown_limonite_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -956,7 +956,7 @@
     },
     {
         "item" : "gregtech:ore_yellow_limonite_0",
-        "color" : 0,
+        "color" : 4,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -983,7 +983,7 @@
     },
     {
         "item" : "gregtech:ore_banded_iron_0",
-        "color" : 0,
+        "color" : 10,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1010,7 +1010,7 @@
     },
     {
         "item" : "gregtech:ore_malachite_0",
-        "color" : 0,
+        "color" : 13,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1037,7 +1037,7 @@
     },
     {
         "item" : "gregtech:ore_kaolinite_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1064,7 +1064,7 @@
     },
     {
         "item" : "gregtech:ore_zeolite_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1084,7 +1084,7 @@
     },
     {
         "item" : "gregtech:ore_glauconite_sand_0",
-        "color" : 0,
+        "color" : 5,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1097,7 +1097,7 @@
     },
     {
         "item" : "gregtech:ore_kyanite_0",
-        "color" : 0,
+        "color" : 3,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1117,7 +1117,7 @@
     },
     {
         "item" : "gregtech:ore_mica_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1144,7 +1144,7 @@
     },
     {
         "item" : "gregtech:ore_pollucite_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1164,7 +1164,7 @@
     },
     {
         "item" : "gregtech:ore_lazurite_0",
-        "color" : 0,
+        "color" : 3,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1191,7 +1191,7 @@
     },
     {
         "item" : "gregtech:ore_sodalite_0",
-        "color" : 0,
+        "color" : 11,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1218,7 +1218,7 @@
     },
     {
         "item" : "gregtech:ore_lapis_0",
-        "color" : 0,
+        "color" : 3,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1245,7 +1245,7 @@
     },
     {
         "item" : "gregtech:ore_calcite_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1272,7 +1272,7 @@
     },
     {
         "item" : "gregtech:ore_magnetite_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1299,7 +1299,7 @@
     },
     {
         "item" : "gregtech:ore_vanadium_magnetite_0",
-        "color" : 0,
+        "color" : 11,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1326,7 +1326,7 @@
     },
     {
         "item" : "gregtech:ore_precious_metal_0",
-        "color" : 0,
+        "color" : 4,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1360,7 +1360,7 @@
     },
     {
         "item" : "gregtech:ore_grossular_0",
-        "color" : 0,
+        "color" : 1,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1380,7 +1380,7 @@
     },
     {
         "item" : "gregtech:ore_spessartine_0",
-        "color" : 0,
+        "color" : 14,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1407,7 +1407,7 @@
     },
     {
         "item" : "gregtech:ore_pyrolusite_0",
-        "color" : 0,
+        "color" : 7,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1434,7 +1434,7 @@
     },
     {
         "item" : "gregtech:ore_tantalite_0",
-        "color" : 0,
+        "color" : 1,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1461,7 +1461,7 @@
     },
     {
         "item" : "gregtech:ore_wulfenite_0",
-        "color" : 0,
+        "color" : 1,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1488,7 +1488,7 @@
     },
     {
         "item" : "gregtech:ore_molybdenite_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1515,7 +1515,7 @@
     },
     {
         "item" : "gregtech:ore_powellite_0",
-        "color" : 0,
+        "color" : 4,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1542,7 +1542,7 @@
     },
     {
         "item" : "gregtech:ore_bastnasite_0",
-        "color" : 0,
+        "color" : 1,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1562,7 +1562,7 @@
     },
     {
         "item" : "gregtech:ore_monazite_0",
-        "color" : 0,
+        "color" : 13,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1582,7 +1582,7 @@
     },
     {
         "item" : "gregtech:ore_neodymium_0",
-        "color" : 0,
+        "color" : 7,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1602,7 +1602,7 @@
     },
     {
         "item" : "gregtech:ore_naquadric_compound_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1629,7 +1629,7 @@
     },
     {
         "item" : "gregtech:ore_enriched_naquadric_compound_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1656,7 +1656,7 @@
     },
     {
         "item" : "gregtech:ore_garnierite_0",
-        "color" : 0,
+        "color" : 5,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1690,7 +1690,7 @@
     },
     {
         "item" : "gregtech:ore_nickel_0",
-        "color" : 0,
+        "color" : 3,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1724,7 +1724,7 @@
     },
     {
         "item" : "gregtech:ore_cobaltite_0",
-        "color" : 0,
+        "color" : 11,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1758,7 +1758,7 @@
     },
     {
         "item" : "gregtech:ore_pentlandite_0",
-        "color" : 0,
+        "color" : 4,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1799,7 +1799,7 @@
     },
     {
         "item" : "gregtech:ore_oilsands_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1819,7 +1819,7 @@
     },
     {
         "item" : "gregtech:ore_prasiolite_0",
-        "color" : 0,
+        "color" : 5,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1839,7 +1839,7 @@
     },
     {
         "item" : "gregtech:ore_bentonite_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1859,7 +1859,7 @@
     },
     {
         "item" : "gregtech:ore_magnesite_0",
-        "color" : 0,
+        "color" : 4,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1879,7 +1879,7 @@
     },
     {
         "item" : "gregtech:ore_olivine_0",
-        "color" : 0,
+        "color" : 5,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1899,7 +1899,7 @@
     },
     {
         "item" : "gregtech:ore_glauconite_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1926,7 +1926,7 @@
     },
     {
         "item" : "gregtech:ore_uranium_radioactive_0",
-        "color" : 0,
+        "color" : 5,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -1946,7 +1946,7 @@
     },
     {
         "item" : "gregtech:ore_platinum_metallic_powder_0",
-        "color" : 0,
+        "color" : 4,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2000,7 +2000,7 @@
     },
     {
         "item" : "gregtech:ore_rarest_metal_residue_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2027,7 +2027,7 @@
     },
     {
         "item" : "gregtech:ore_quartzite_0",
-        "color" : 0,
+        "color" : 9,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2087,7 +2087,7 @@
     },
     {
         "item" : "gregtech:ore_tennantite_0",
-        "color" : 0,
+        "color" : 7,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2114,7 +2114,7 @@
     },
     {
         "item" : "gregtech:ore_redstone_0",
-        "color" : 0,
+        "color" : 14,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2141,7 +2141,7 @@
     },
     {
         "item" : "gregtech:ore_ruby_0",
-        "color" : 0,
+        "color" : 14,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2168,7 +2168,7 @@
     },
     {
         "item" : "gregtech:ore_cinnabar_0",
-        "color" : 0,
+        "color" : 14,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2195,7 +2195,7 @@
     },
     {
         "item" : "gregtech:ore_chromite_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2242,7 +2242,7 @@
     },
     {
         "item" : "gregtech:ore_rock_salt_0",
-        "color" : 0,
+        "color" : 6,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2262,7 +2262,7 @@
     },
     {
         "item" : "gregtech:ore_lepidolite_0",
-        "color" : 0,
+        "color" : 2,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2282,7 +2282,7 @@
     },
     {
         "item" : "gregtech:ore_spodumene_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2302,7 +2302,7 @@
     },
     {
         "item" : "gregtech:ore_almandine_0",
-        "color" : 0,
+        "color" : 14,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2322,7 +2322,7 @@
     },
     {
         "item" : "gregtech:ore_pyrope_0",
-        "color" : 0,
+        "color" : 10,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2342,7 +2342,7 @@
     },
     {
         "item" : "gregtech:ore_sapphire_0",
-        "color" : 0,
+        "color" : 11,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2362,7 +2362,7 @@
     },
     {
         "item" : "gregtech:ore_green_sapphire_0",
-        "color" : 0,
+        "color" : 5,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2382,7 +2382,7 @@
     },
     {
         "item" : "gregtech:ore_soapstone_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2402,7 +2402,7 @@
     },
     {
         "item" : "gregtech:ore_talc_0",
-        "color" : 0,
+        "color" : 5,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2422,7 +2422,7 @@
     },
     {
         "item" : "gregtech:ore_tenorite_0",
-        "color" : 0,
+        "color" : 7,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2442,7 +2442,7 @@
     },
     {
         "item" : "gregtech:ore_cuprite_0",
-        "color" : 0,
+        "color" : 14,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2462,7 +2462,7 @@
     },
     {
         "item" : "gregtech:ore_tetrahedrite_0",
-        "color" : 0,
+        "color" : 14,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2489,7 +2489,7 @@
     },
     {
         "item" : "gregtech:ore_stibnite_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2516,7 +2516,7 @@
     },
     {
         "item" : "gregtech:ore_tin_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2536,7 +2536,7 @@
     },
     {
         "item" : "gregtech:ore_topaz_0",
-        "color" : 0,
+        "color" : 1,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2563,7 +2563,7 @@
     },
     {
         "item" : "gregtech:ore_blue_topaz_0",
-        "color" : 0,
+        "color" : 11,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2590,7 +2590,7 @@
     },
     {
         "item" : "gregtech:ore_scheelite_0",
-        "color" : 0,
+        "color" : 12,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2617,7 +2617,7 @@
     },
     {
         "item" : "gregtech:ore_tungstate_0",
-        "color" : 0,
+        "color" : 15,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2644,7 +2644,7 @@
     },
     {
         "item" : "gregtech:ore_lithium_0",
-        "color" : 0,
+        "color" : 8,
         "rarity" : [
             {
                 "whitelist" : "",
@@ -2671,7 +2671,7 @@
     },
     {
         "item" : "gregtech:ore_nether_quartz_0",
-        "color" : 0,
+        "color" : 6,
         "rarity" : [
             {
                 "whitelist" : "minecraft:hell",
@@ -2691,7 +2691,7 @@
     },
     {
         "item" : "gregtech:ore_sulfur_0",
-        "color" : 0,
+        "color" : 4,
         "rarity" : [
             {
                 "whitelist" : "minecraft:hell",
@@ -2711,7 +2711,7 @@
     },
     {
         "item" : "gregtech:ore_niter_0",
-        "color" : 0,
+        "color" : 6,
         "rarity" : [
             {
                 "whitelist" : "minecraft:hell",
@@ -2751,7 +2751,7 @@
     },
     {
         "item" : "gregtech:ore_zirkelite_0",
-        "color" : 0,
+        "color" : 10,
         "rarity" : [
             {
                 "whitelist" : "minecraft:hell",
