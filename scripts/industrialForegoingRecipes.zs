@@ -29,6 +29,7 @@ for i in 0 to 16{
 val platePlastic = <ore:platePlastic>;
 val plateSteel = <ore:plateSteel>;
 val frameThermal = <thermalexpansion:frame>;
+val motorMV = <gregtech:meta_item_1:32601>;
 val armMV = <gregtech:meta_item_1:32651>;
 val circuitMV = <ore:circuitGood>;
 
@@ -437,7 +438,7 @@ recipes.addShaped(<industrialforegoing:fortune_addon>,
 recipes.removeShaped(<industrialforegoing:conveyor>);
 recipes.addShaped(<industrialforegoing:conveyor>*4,
 [[platePlastic,platePlastic,platePlastic]
-,[<ore:plateSteel>,<gregtech:meta_item_1:32601>,<ore:plateSteel>]
+,[<ore:plateSteel>,motorMV,<ore:plateSteel>]
 ,[platePlastic,platePlastic,platePlastic]]);
 recipes.addShaped(<industrialforegoing:conveyor>*8,
 [[oreConveyor,oreConveyor,oreConveyor]
@@ -450,3 +451,42 @@ recipes.addShaped(<industrialforegoing:black_hole_label>*4,
 ,[<ore:paper>,<ore:dustGlowstone>,<ore:paper>]
 ,[platePlastic,platePlastic,platePlastic]]);
 
+recipes.remove(<teslacorelib:base_addon>);
+recipes.addShaped(<teslacorelib:base_addon>,
+[[platePlastic,plateSteel,platePlastic]
+,[plateSteel,circuitMV,plateSteel]
+,[platePlastic,plateSteel,platePlastic]]);
+
+recipes.remove(<teslacorelib:energy_tier1>);
+recipes.addShaped(<teslacorelib:energy_tier1>,
+[[<ore:dustEnergetic>,<ore:gearGold>,<ore:dustEnergetic>]
+,[<ore:dustNetherQuartz>,<teslacorelib:base_addon>,<ore:dustNetherQuartz>]
+,[<ore:dustEnergetic>,<ore:dustNetherQuartz>,<ore:dustEnergetic>]]);
+
+recipes.remove(<teslacorelib:energy_tier2>);
+recipes.remove(<teslacorelib:energy_tier2>);
+recipes.addShaped(<teslacorelib:energy_tier2>,
+[[<ore:dustEnergetic>,<ore:plateDiamond>,<ore:dustEnergetic>]
+,[<ore:plateDiamond>,<teslacorelib:energy_tier1>,<ore:plateDiamond>]
+,[<ore:dustEnergetic>,<ore:plateDiamond>,<ore:dustEnergetic>]]);
+recipes.addShaped(<teslacorelib:energy_tier2>,
+[[<ore:dustEnergetic>,<ore:gearDiamond>,<ore:dustEnergetic>]
+,[<ore:dustNetherQuartz>,<teslacorelib:energy_tier2>,<ore:dustNetherQuartz>]
+,[<ore:dustEnergetic>,<ore:dustNetherQuartz>,<ore:dustEnergetic>]]);
+
+recipes.remove(<teslacorelib:speed_tier1>);
+recipes.addShaped(<teslacorelib:speed_tier1>,
+[[<ore:dustRedstone>,<ore:gearGold>,<ore:dustRedstone>]
+,[motorMV,<teslacorelib:base_addon>,motorMV]
+,[<ore:dustRedstone>,<ore:gearGold>,<ore:dustRedstone>]]);
+
+recipes.remove(<teslacorelib:speed_tier2>);
+recipes.remove(<teslacorelib:speed_tier2>);
+recipes.addShaped(<teslacorelib:speed_tier2>,
+[[<ore:dustRedstone>,<ore:plateDiamond>,<ore:dustRedstone>]
+,[<ore:plateDiamond>,<teslacorelib:speed_tier1>,<ore:plateDiamond>]
+,[<ore:dustRedstone>,<ore:plateDiamond>,<ore:dustRedstone>]]);
+recipes.addShaped(<teslacorelib:speed_tier2>,
+[[<ore:dustRedstone>,<ore:gearDiamond>,<ore:dustRedstone>]
+,[motorMV,<teslacorelib:speed_tier1>,motorMV]
+,[<ore:dustRedstone>,<ore:gearDiamond>,<ore:dustRedstone>]]);
