@@ -1,50 +1,50 @@
 # some of known gtce machines:
 #
-# gtce_alloySmelter
-# gtce_arcFurnace
-# gtce_assembler
-# gtce_autoclave
-# gtce_bender
-# gtce_blast
-# gtce_brewing
-# gtce_canner
-# gtce_centrifuge
-# gtce_chemical
-# gtce_chemicalBath
 # gtce_compressor
-# gtce_cracking
-# gtce_cutter
-# gtce_distillation
-# gtce_distillery
-# gtce_electrolyzer
-# gtce_electromagneticSeparator
 # gtce_extractor
-# gtce_extruder
-# gtce_fermenting
-# gtce_fluidCanner
-# gtce_fluidExtraction
-# gtce_fluidHeater
-# gtce_fluidSolidfication
-# gtce_forgeHammer
-# gtce_formingPress
-# gtce_furnace
-# gtce_fusion
-# gtce_implosion
-# gtce_laserEngraver
-# gtce_lathe
 # gtce_macerator
-# gtce_microwave
-# gtce_mixer
 # gtce_oreWasher
-# gtce_packer
-# gtce_plasmaArcFurnace
-# gtce_polarizer
-# gtce_pyrolyse
-# gtce_sifter
 # gtce_thermalCentrifuge
-# gtce_unpacker
+# gtce_furnace
+# gtce_microwave
+# gtce_assembler
+# gtce_formingPress
+# gtce_fluidCanner
+# gtce_plasmaArcFurnace
+# gtce_arcFurnace
+# gtce_sifter
+# gtce_laserEngraver
+# gtce_mixer
+# gtce_autoclave
+# gtce_electromagneticSeparator
+# gtce_polarizer
+# gtce_chemicalBath
+# gtce_brewing
+# gtce_fluidHeater
+# gtce_distillery
+# gtce_fermenting
+# gtce_fluidSolidfication
+# gtce_fluidExtraction
+# gtce_fusion
+# gtce_centrifuge
+# gtce_electrolyzer
+# gtce_blast
+# gtce_implosion
 # gtce_vacuum
+# gtce_chemical
+# gtce_distillation
+# gtce_cracking
+# gtce_pyrolyse
 # gtce_wiremill
+# gtce_bender
+# gtce_alloySmelter
+# gtce_canner
+# gtce_lathe
+# gtce_cutter
+# gtce_extruder
+# gtce_forgeHammer
+# gtce_packer
+# gtce_unpacker
 
 include file("default.recipes")
 
@@ -53,8 +53,17 @@ circuitboard = false
 printedcircuitboard = false
 powerdistributor = false
 wrench = false
+ingotSteel = false
 chipdiamond = false
 cuttingwire = false
+
+cable {
+  input: [
+    ["", "plateRubber", ""]
+    ["plateRubber", "wireGtSingleCopper", "plateRubber"]
+    ["", "plateRubber", ""]
+  ]
+}
 
 transistor {
   type: gtce_multiple
@@ -217,8 +226,8 @@ alu {
         name: "tin"
         amount: 144
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     },
     {
@@ -229,8 +238,8 @@ alu {
         name: "soldering_alloy"
         amount: 72
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     }
   ]
@@ -247,8 +256,8 @@ apu1 {
         name: "tin"
         amount: 144
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     },
     {
@@ -259,8 +268,8 @@ apu1 {
         name: "soldering_alloy"
         amount: 72
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     }
   ]
@@ -277,8 +286,8 @@ apu2 {
         name: "tin"
         amount: 144
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     },
     {
@@ -289,8 +298,8 @@ apu2 {
         name: "soldering_alloy"
         amount: 72
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     }
   ]
@@ -307,8 +316,8 @@ cpu1 {
         name: "tin"
         amount: 144
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     },
     {
@@ -319,8 +328,8 @@ cpu1 {
         name: "soldering_alloy"
         amount: 72
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     }
   ]
@@ -337,8 +346,8 @@ cpu2 {
         name: "tin"
         amount: 144
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     },
     {
@@ -349,8 +358,8 @@ cpu2 {
         name: "soldering_alloy"
         amount: 72
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     }
   ]
@@ -367,8 +376,8 @@ cpu3 {
         name: "tin"
         amount: 144
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     },
     {
@@ -379,97 +388,295 @@ cpu3 {
         name: "soldering_alloy"
         amount: 72
       }
-      eu: 24
-      duration: 500
+      eu: 1200
+      duration: 400
       output: 1
     }
   ]
 }
 
 ram1 {
-  input: [
-    ["", "", ""]
-    ["oc:circuitChip1", "oc:circuitChip1", "oc:circuitChip1"]
-    [{oreDict: "circuitBasic", gtid: "circuit.basic"}, {oreDict: "circuitBasic", gtid: "circuit.basic"}, {oreDict: "circuitBasic", gtid: "circuit.basic"}]
+  type: gtce_multiple
+  alternatives: [
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip1", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}]
+    count: [3, 3, 1, 1]
+      inputFluid: {
+        name: "tin"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    },
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip1", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}]
+    count: [3, 3, 1, 1]
+      inputFluid: {
+        name: "soldering_alloy"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    }
   ]
 }
 
 ram2 {
-  input: [
-    ["", "", ""]
-    ["oc:circuitChip1", "oc:circuitChip1", "oc:circuitChip1"]
-    ["oc:ram1", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:ram1"]
+  type: gtce_multiple
+  alternatives: [
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip1", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram1"]
+    count: [3, 3, 1, 2, 2]
+      inputFluid: {
+        name: "tin"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    },
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip1", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram1"]
+    count: [3, 3, 1, 2, 2]
+      inputFluid: {
+        name: "soldering_alloy"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    }
   ]
 }
 
 ram3 {
-  input: [
-    ["", "", ""]
-    ["oc:circuitChip2", "oc:circuitChip2", "oc:circuitChip2"]
-    ["oc:ram2", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:ram2"]
+  type: gtce_multiple
+  alternatives: [
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip2", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram2"]
+    count: [3, 3, 1, 3, 2]
+      inputFluid: {
+        name: "tin"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    },
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip2", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram2"]
+    count: [3, 3, 1, 3, 2]
+      inputFluid: {
+        name: "soldering_alloy"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    }
   ]
 }
 
 ram4 {
-  input: [
-    ["", "", ""]
-    ["oc:circuitChip2", "oc:circuitChip2", "oc:circuitChip2"]
-    ["oc:ram3", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:ram3"]
+  type: gtce_multiple
+  alternatives: [
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip2", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram3"]
+    count: [3, 3, 1, 4, 2]
+      inputFluid: {
+        name: "tin"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    },
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip2", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram3"]
+    count: [3, 3, 1, 4, 2]
+      inputFluid: {
+        name: "soldering_alloy"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    }
   ]
 }
 
 ram5 {
-  input: [
-    ["", "", ""]
-    ["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
-    ["oc:ram4", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:ram4"]
+  type: gtce_multiple
+  alternatives: [
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip3", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram4"]
+    count: [3, 3, 1, 5, 2]
+      inputFluid: {
+        name: "tin"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    },
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip3", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram4"]
+    count: [3, 3, 1, 5, 2]
+      inputFluid: {
+        name: "soldering_alloy"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    }
   ]
 }
 
 ram6 {
-  input: [
-    ["", "", ""]
-    ["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
-    ["oc:ram5", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:ram5"]
+  type: gtce_multiple
+  alternatives: [
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip3", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram5"]
+    count: [3, 3, 1, 6, 2]
+      inputFluid: {
+        name: "tin"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    },
+    {
+    type: gtce_assembler
+    input: ["oc:circuitChip3", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}, {item: "gregtech:meta_item_2", subID: 32485}, "oc:ram5"]
+    count: [3, 3, 1, 6, 2]
+      inputFluid: {
+        name: "soldering_alloy"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    }
   ]
 }
 
 componentbus1 {
-  input: [
-    ["wireGtSingleIron", "wireGtSingleRedAlloy", "wireGtSingleIron"]
-    ["oc:circuitChip1", "oc:materialCU", ""]
-    ["wireGtSingleIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "wireGtSingleIron"]
+  type: gtce_multiple
+  alternatives: [
+    {
+    type: gtce_assembler
+    input: ["wireGtSingleElectrum", "wireGtSingleRedAlloy", "oc:circuitChip1", "oc:materialCU", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}]
+    count: [4, 1, 2, 1, 3, 1]
+      inputFluid: {
+        name: "tin"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    },
+    {
+    type: gtce_assembler
+    input: ["wireGtSingleElectrum", "wireGtSingleRedAlloy", "oc:circuitChip1", "oc:materialCU", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}]
+    count: [4, 1, 2, 1, 3, 1]
+      inputFluid: {
+        name: "soldering_alloy"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    }
   ]
 }
 
 componentbus2 {
-  input: [
-    ["wireGtSingleGold", "oc:ram3", "wireGtSingleGold"]
-    ["oc:circuitChip2", "oc:componentBus1", ""]
-    ["wireGtSingleGold", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "wireGtSingleGold"]
+  type: gtce_multiple
+  alternatives: [
+    {
+    type: gtce_assembler
+    input: ["wireGtSingleGold", "oc:ram3", "oc:circuitChip2", "oc:componentBus1", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}]
+    count: [4, 1, 2, 1, 3, 1]
+      inputFluid: {
+        name: "tin"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    },
+    {
+    type: gtce_assembler
+    input: ["wireGtSingleGold", "oc:ram3", "oc:circuitChip2", "oc:componentBus1", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}]
+    count: [4, 1, 2, 1, 3, 1]
+      inputFluid: {
+        name: "soldering_alloy"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    }
   ]
 }
 
 componentbus3 {
-  input: [
-    ["wireGtSingleTitanium", "oc:ram5", "wireGtSingleTitanium"]
-    ["oc:circuitChip3", "oc:componentBus2", ""]
-    ["wireGtSingleTitanium", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "wireGtSingleTitanium"]
+  type: gtce_multiple
+  alternatives: [
+    {
+    type: gtce_assembler
+    input: ["wireGtSingleTitanium", "oc:ram5", "oc:circuitChip3", "oc:componentBus2", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}]
+    count: [4, 1, 2, 1, 3, 1]
+      inputFluid: {
+        name: "tin"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    },
+    {
+    type: gtce_assembler
+    input: ["wireGtSingleTitanium", "oc:ram5", "oc:circuitChip3", "oc:componentBus2", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {item: "gtadditions:ga_meta_item", subID: 32032}]
+    count: [4, 1, 2, 1, 3, 1]
+      inputFluid: {
+        name: "soldering_alloy"
+        amount: 144
+      }
+      eu: 1200
+      duration: 400
+      output: 1
+    }
   ]
 }
 
 card {
   input: [
-    ["wireGtSingleIron", "oc:circuitChip1", "oc:materialTransistor"]
-    ["wireGtSingleIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, {oreDict: "circuitBasic", gtid: "circuit.basic"}]
-    ["wireGtSingleIron", "wireGtSingleGold", "wireGtSingleGold"]
+    ["wireGtSingleElectrum", "oc:circuitChip1", "oc:materialTransistor"]
+    ["wireGtSingleElectrum", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}]
+    ["wireGtSingleElectrum", "wireGtSingleGold", "wireGtSingleGold"]
   ]
 }
 
 datacard1 {
   input: [
     ["", "", ""]
-    ["wireGtSingleIron", "oc:materialALU", "oc:circuitChip2"]
+    ["wireGtSingleElectrum", "oc:materialALU", "oc:circuitChip2"]
     ["", "oc:materialCard", ""]
   ]
 }
@@ -541,7 +748,7 @@ redstonecard2 {
 lancard {
   input: [
     ["", "", ""]
-    ["cableGtSingleIron", "oc:circuitChip1", ""]
+    ["cableGtSingleElectrum", "oc:circuitChip1", ""]
     ["", "oc:materialCard", ""]
   ]
 }
@@ -589,24 +796,24 @@ disk {
 
 floppy {
   input: [
-    ["wireGtSingleIron", "lever", "wireGtSingleIron"]
-    [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:materialDisk", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
-    ["wireGtSingleIron", "craftingToolScrewdriver", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "lever", "wireGtSingleElectrum"]
+    [{oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "oc:materialDisk", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}]
+    ["wireGtSingleElectrum", "craftingToolScrewdriver", "wireGtSingleElectrum"]
   ]
 }
 
 hdd1 {
   input: [
-    ["oc:circuitChip1", "oc:materialDisk", "wireGtSingleIron"]
-    [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:materialDisk", "craftingToolScrewdriver"]
-    ["oc:circuitChip1", "oc:materialDisk", "wireGtSingleIron"]
+    ["oc:circuitChip1", "oc:materialDisk", "wireGtSingleElectrum"]
+    [{oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "oc:materialDisk", "craftingToolScrewdriver"]
+    ["oc:circuitChip1", "oc:materialDisk", "wireGtSingleElectrum"]
   ]
 }
 
 hdd2 {
   input: [
     ["wireGtSingleGold", "oc:hdd1", "wireGtSingleGold"]
-    ["oc:circuitChip2", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:circuitChip2"]
+    ["oc:circuitChip2", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "oc:circuitChip2"]
     ["wireGtSingleGold", "oc:hdd1", "wireGtSingleGold"]
   ]
 }
@@ -614,7 +821,7 @@ hdd2 {
 hdd3 {
   input: [
     ["oc:circuitChip3", "oc:hdd2", "oc:circuitChip3"]
-    ["oc:ram1", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:ram1"]
+    ["oc:ram1", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "oc:ram1"]
     ["oc:circuitChip3", "oc:hdd2", "oc:circuitChip3"]
   ]
 }
@@ -629,17 +836,17 @@ interweb {
 
 angelupgrade {
   input: [
-    ["wireGtSingleIron", "materialEnderPearl", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "materialEnderPearl", "wireGtSingleElectrum"]
     ["oc:circuitChip1", "pistonStickyBase", "oc:circuitChip1"]
-    ["wireGtSingleIron", "materialEnderPearl", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "materialEnderPearl", "wireGtSingleElectrum"]
   ]
 }
 
 batteryupgrade1 {
   input: [
-    ["wireGtSingleIron", "wireGtSingleGold", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "wireGtSingleGold", "wireGtSingleElectrum"]
     ["oc:materialTransistor", "oc:capacitor", "oc:materialTransistor"]
-    ["wireGtSingleIron", "wireGtSingleGold", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "wireGtSingleGold", "wireGtSingleElectrum"]
   ]
 }
 
@@ -663,39 +870,39 @@ chunkloaderupgrade {
   input: [
     ["wireGtSingleTitanium", "blockGlass", "wireGtSingleTitanium"]
     ["oc:circuitChip3", "eyeOfEnder", "oc:circuitChip3"]
-    ["obsidian", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "obsidian"]
+    ["obsidian", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "obsidian"]
   ]
 }
 
 craftingupgrade {
   input: [
-    ["screwStainlessSteel", {oreDict: "circuitBasic", gtid: "circuit.basic"} , {oreDict: "circuitBasic", gtid: "circuit.basic"}]
-    ["oc:circuitChip2", {block="gregtech:machine_casing", subID=1}, "oc:circuitChip2"]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"} , {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}]
+    ["oc:circuitChip2", {block="gregtech:machine_casing", subID=3}, "oc:circuitChip2"]
     ["screwStainlessSteel", "craftingToolScrewdriver", "screwStainlessSteel"]
   ]
 }
 
 databaseupgrade1 {
   input: [
-    ["screwIron", "oc:analyzer", "screwIron"]
+    ["screwStainlessSteel", "oc:analyzer", "screwStainlessSteel"]
     ["oc:circuitChip1", "oc:hdd1", "oc:circuitChip1"]
-    ["screwIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 databaseupgrade2 {
   input: [
-    ["screwIron", "oc:analyzer", "screwIron"]
+    ["screwStainlessSteel", "oc:analyzer", "screwStainlessSteel"]
     ["oc:circuitChip2", "oc:hdd2", "oc:circuitChip2"]
-    ["screwIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 databaseupgrade3 {
   input: [
-    ["screwIron", "oc:analyzer", "screwIron"]
+    ["screwStainlessSteel", "oc:analyzer", "screwStainlessSteel"]
     ["oc:circuitChip3", "oc:hdd3", "oc:circuitChip3"]
-    ["screwIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
@@ -703,13 +910,13 @@ experienceupgrade {
   input: [
     ["wireGtSingleTitanium", "oc:analyzer", "wireGtSingleTitanium"]
     ["oc:circuitChip3", "emerald", "oc:circuitChip3"]
-    ["wireGtSingleTitanium", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "wireGtSingleTitanium"]
+    ["wireGtSingleTitanium", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "wireGtSingleTitanium"]
   ]
 }
 
 generatorupgrade {
   input: [
-    ["screwStainlessSteel", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "screwStainlessSteel"]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "screwStainlessSteel"]
     ["oc:circuitChip2", {block="gregtech:machine", subID=1}, "oc:circuitChip2"]
     ["screwStainlessSteel", "craftingToolScrewdriver", "screwStainlessSteel"]
   ]
@@ -718,32 +925,32 @@ generatorupgrade {
 hoverupgrade1 {
   input: [
     ["feather", "oc:circuitChip1", "feather"]
-    ["wireGtSingleIron", "leather", "wireGtSingleIron"]
-    ["feather", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "feather"]
+    ["wireGtSingleElectrum", "leather", "wireGtSingleElectrum"]
+    ["feather", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "feather"]
   ]
 }
 
 hoverupgrade2 {
   input: [
     ["oc:stoneEndstone", "oc:circuitChip2", "oc:stoneEndstone"]
-    ["wireGtSingleGold", "screwIron", "wireGtSingleGold"]
-    ["oc:stoneEndstone", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["wireGtSingleGold", "screwStainlessSteel", "wireGtSingleGold"]
+    ["oc:stoneEndstone", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 inventoryupgrade {
   input: [
-    ["screwIron", "hopper", "screwIron"]
-    ["dispenser", "chest", "craftingPiston"]
-    ["screwIron", "oc:circuitChip1", "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "hopper", "screwStainlessSteel"]
+    ["dispenser", "chest", {item: "gregtech:meta_item_1", subID: 32642}]
+    ["screwStainlessSteel", "oc:circuitChip1", "craftingToolScrewdriver"]
   ]
 }
 
 inventorycontrollerupgrade {
   input: [
     ["screwGold", "oc:circuitChip2", "screwGold"]
-    ["dispenser", "oc:inventoryUpgrade", "craftingPiston"]
-    ["screwGold", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["dispenser", "oc:inventoryUpgrade", {item: "gregtech:meta_item_1", subID: 32642}]
+    ["screwGold", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
@@ -757,9 +964,9 @@ mfu {
 
 leashupgrade {
   input: [
-    ["screwIron", "minecraft:lead", "screwIron"]
+    ["screwStainlessSteel", "minecraft:lead", "screwStainlessSteel"]
     ["minecraft:lead", "oc:materialCU", "minecraft:lead"]
-    ["screwIron", "minecraft:lead", "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "minecraft:lead", "craftingToolScrewdriver"]
   ]
 }
 
@@ -773,9 +980,9 @@ navigationupgrade {
 
 pistonupgrade {
   input: [
-    ["screwIron", "craftingPiston", "screwIron"]
+    ["screwStainlessSteel", {item: "gregtech:meta_item_1", subID: 32642}, "screwStainlessSteel"]
     ["stickWood", "oc:circuitChip1", "stickWood"]
-    ["screwIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
@@ -798,7 +1005,7 @@ solargeneratorupgrade {
 tankupgrade {
   input: [
     ["plankWood", "fenceIron", "plankWood"]
-    ["dispenser", "cauldron", "craftingPiston"]
+    ["dispenser", "cauldron", {item: "gregtech:meta_item_1", subID: 32642}]
     ["plankWood", "oc:circuitChip1", "plankWood"]
   ]
 }
@@ -806,15 +1013,15 @@ tankupgrade {
 tankcontrollerupgrade {
   input: [
     ["ingotGold", "glassBottle", "ingotGold"]
-    ["dispenser", "oc:circuitChip2", "craftingPiston"]
-    ["ingotGold", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "ingotGold"]
+    ["dispenser", "oc:circuitChip2", {item: "gregtech:meta_item_1", subID: 32642}]
+    ["ingotGold", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "ingotGold"]
   ]
 }
 
 tractorbeamupgrade {
   input: [
     ["screwGold", "craftingToolScrewdriver", "screwGold"]
-    ["screwIron", "oc:capacitor", "screwIron"]
+    ["screwStainlessSteel", "oc:capacitor", "screwStainlessSteel"]
     ["screwGold", "oc:circuitChip3", "screwGold"]
   ]
 }
@@ -823,68 +1030,68 @@ tradingupgrade {
   input: [
     ["screwGold", "chest", "screwGold"]
     ["emerald", "oc:circuitChip2", "emerald"]
-    ["dropper", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["dropper", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 cardcontainer1 {
   input: [
-    ["screwIron", "oc:circuitChip1", "screwIron"]
-    ["craftingPiston", "chest", ""]
-    ["screwIron", "oc:materialCard", "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "oc:circuitChip1", "screwStainlessSteel"]
+    [{item: "gregtech:meta_item_1", subID: 32642}, "chest", ""]
+    ["screwStainlessSteel", "oc:materialCard", "craftingToolScrewdriver"]
   ]
 }
 
 cardcontainer2 {
   input: [
-    ["screwIron", "oc:circuitChip2", "screwIron"]
-    ["craftingPiston", "chest", ""]
-    ["screwIron", "oc:materialCard", "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "oc:circuitChip2", "screwStainlessSteel"]
+    [{item: "gregtech:meta_item_1", subID: 32642}, "chest", ""]
+    ["screwStainlessSteel", "oc:materialCard", "craftingToolScrewdriver"]
   ]
 }
 
 cardcontainer3 {
   input: [
     ["screwGold", "oc:circuitChip2", "screwGold"]
-    ["craftingPiston", "chest", ""]
+    [{item: "gregtech:meta_item_1", subID: 32642}, "chest", ""]
     ["screwGold", "oc:materialCard", "craftingToolScrewdriver"]
   ]
 }
 
 upgradecontainer1 {
   input: [
-    ["screwIron", "oc:circuitChip1", "screwIron"]
-    ["craftingPiston", "chest", ""]
-    ["screwIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "oc:circuitChip1", "screwStainlessSteel"]
+    [{item: "gregtech:meta_item_1", subID: 32642}, "chest", ""]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 upgradecontainer2 {
   input: [
-    ["screwIron", "oc:circuitChip2", "screwIron"]
-    ["craftingPiston", "chest", ""]
-    ["screwIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "oc:circuitChip2", "screwStainlessSteel"]
+    [{item: "gregtech:meta_item_1", subID: 32642}, "chest", ""]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 upgradecontainer3 {
   input: [
     ["screwGold", "oc:circuitChip2", "screwGold"]
-    ["craftingPiston", "chest", ""]
-    ["screwGold", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    [{item: "gregtech:meta_item_1", subID: 32642}, "chest", ""]
+    ["screwGold", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 case1 {
   input: [
-    ["screwAluminium", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench"]
-    ["rotorBronze", {block="gregtech:machine_casing", subID=1}, "rotorBronze"]
+    ["screwAluminium", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench"]
+    ["rotorBronze", {block="gregtech:machine_casing", subID=3}, "rotorBronze"]
     ["screwAluminium", "oc:circuitChip1", "craftingToolScrewdriver"]
   ]
 }
 
 case2 {
   input: [
-    ["screwStainlessSteel", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench"]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench"]
     ["rotorSteel", "oc:case1", "rotorSteel"]
     ["screwStainlessSteel", "oc:circuitChip2", "craftingToolScrewdriver"]
   ]
@@ -892,7 +1099,7 @@ case2 {
 
 case3 {
   input: [
-    ["screwTitanium", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench"]
+    ["screwTitanium", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench"]
     ["rotorTitanium", "oc:case2", "rotorTitanium"]
     [screwTitanium, "oc:circuitChip3", "craftingToolScrewdriver"]
   ]
@@ -909,23 +1116,23 @@ screen1 {
 screen2 {
   input: [
     ["plateStainlessSteel", "screwStainlessSteel", "craftingToolWrench"]
-    ["oc:circuitChip2", "oc:screen1", {block="gregtech:machine_casing", subID=1}]
+    ["oc:circuitChip2", "oc:screen1", {block="gregtech:machine_casing", subID=3}]
     ["plateStainlessSteel", "screwStainlessSteel", "craftingToolScrewdriver"]
   ]
 }
 
 screen3 {
   input: [
-    ["plateTitanium", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench"]
+    ["plateTitanium", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench"]
     ["oc:circuitChip3", "oc:screen2", "oc:circuitChip3"]
-    ["plateTitanium", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["plateTitanium", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 analyzer {
   input: [
     ["oc:materialTransistor", "wireGtSingleRedAlloy", "oc:materialTransistor"]
-    ["oc:circuitChip2", {block="gregtech:machine_casing", subID=1}, "oc:circuitChip2"]
+    ["oc:circuitChip2", {block="gregtech:machine_casing", subID=3}, "oc:circuitChip2"]
     ["screwAluminium", "craftingToolScrewdriver", "screwAluminium"]
   ]
 }
@@ -933,7 +1140,7 @@ server1 {
   input: [
     ["oc:circuitChip1", "oc:ram4", "oc:circuitChip1"]
     ["oc:circuitChip2", "oc:case1", "oc:circuitChip2"]
-    ["craftingToolScrewdriver", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench"]
+    ["craftingToolScrewdriver", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench"]
   ]
 }
 
@@ -941,7 +1148,7 @@ server2 {
   input: [
     ["oc:circuitChip2", "oc:ram5", "oc:circuitChip2"]
     ["oc:circuitChip3", "oc:case2", "oc:circuitChip3"]
-    ["craftingToolScrewdriver", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench"]
+    ["craftingToolScrewdriver", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench"]
   ]
 }
 
@@ -949,7 +1156,7 @@ server3 {
   input: [
     ["oc:circuitChip3", "oc:ram6", "oc:circuitChip3"]
     ["oc:circuitChip3", "oc:case3", "oc:circuitChip3"]
-    ["craftingToolScrewdriver", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench"]
+    ["craftingToolScrewdriver", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench"]
   ]
 }
 
@@ -971,9 +1178,9 @@ dronecase2 {
 
 microcontrollercase1 {
   input: [
-    ["wireGtSingleIron", "oc:circuitChip1", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "oc:circuitChip1", "wireGtSingleElectrum"]
     ["wireGtSingleRedAlloy", "chest", "wireGtSingleRedAlloy"]
-    ["wireGtSingleIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "wireGtSingleIron"]
+    ["wireGtSingleElectrum", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "wireGtSingleElectrum"]
   ]
 }
 
@@ -981,7 +1188,7 @@ microcontrollercase2 {
   input: [
     ["wireGtSingleGold", "oc:circuitChip3", "wireGtSingleGold"]
     ["plateRedAlloy", "chest", "plateRedAlloy"]
-    ["wireGtSingleGold", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "wireGtSingleGold"]
+    ["wireGtSingleGold", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "wireGtSingleGold"]
   ]
 }
 
@@ -989,7 +1196,7 @@ tabletcase1 {
   input: [
     ["screwGold", "button", "screwGold"]
     ["oc:componentBus1", "oc:screen2", "oc:circuitChip3"]
-    ["screwGold", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwGold", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
@@ -997,14 +1204,14 @@ tabletcase2 {
   input: [
     ["oc:circuitChip2", "button", "screwGold"]
     ["oc:componentBus3", "oc:screen2", "oc:circuitChip3"]
-    ["oc:circuitChip2", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["oc:circuitChip2", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 hologram1 {
   input: [
     ["oc:circuitChip2", "paneGlass", "oc:circuitChip2"]
-    [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "gemDiamond", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
+    [{oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "gemDiamond", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}]
     ["obsidian", "yellowDust", "obsidian"]
   ]
 }
@@ -1012,16 +1219,16 @@ hologram1 {
 hologram2 {
   input: [
     ["oc:circuitChip3", "blockGlass", "oc:circuitChip3"]
-    [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "blockDiamond", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
+    [{oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "blockDiamond", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}]
     ["obsidian", "blazePowder", "obsidian"]
   ]
 }
 
 terminal {
   input: [
-    ["wireGtSingleIron", "oc:solarGeneratorUpgrade", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "oc:solarGeneratorUpgrade", "wireGtSingleElectrum"]
     ["oc:circuitChip3", "oc:screen2", "oc:wlanCard2"]
-    ["wireGtSingleIron", "oc:keyboard", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "oc:keyboard", "wireGtSingleElectrum"]
   ]
 }
 
@@ -1029,14 +1236,14 @@ terminalserver {
   input: [
     ["obsidian", "oc:wlanCard", "obsidian"]
     ["oc:wlanCard", "oc:circuitChip2", "oc:wlanCard2"]
-    ["obsidian", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "obsidian"]
+    ["obsidian", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "obsidian"]
   ]
 }
 
 diskdrive {
   input: [
     ["", "oc:circuitChip2", ""]
-    ["craftingPiston", {block="gregtech:machine_casing", subID=1}, "craftingLensWhite"]
+    [{item: "gregtech:meta_item_1", subID: 32642}, {block="gregtech:machine_casing", subID=3}, "craftingLensWhite"]
     ["oc:circuitChip2", "craftingToolWrench", "oc:circuitChip2"]
   ]
 }
@@ -1045,15 +1252,15 @@ rack {
   input: [
     ["craftingToolScrewdriver", "oc:wlanCard2", "craftingToolWrench"]
     ["rotorSteel", "chest", "rotorSteel"]
-    ["oc:relay", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:powerConverter"]
+    ["oc:relay", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "oc:powerConverter"]
   ]
 }
 
 raid {
   input: [
-    ["wireGtSingleIron", "oc:cpu3", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "oc:cpu3", "wireGtSingleElectrum"]
     ["oc:ram1", "oc:diskDrive", "oc:ram1"]
-    ["wireGtSingleIron", "oc:circuitChip2", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "oc:circuitChip2", "wireGtSingleElectrum"]
   ]
 }
 
@@ -1093,7 +1300,7 @@ powerconverter {
   input: [
     ["", "oc:circuitChip2", ""]
     ["plateSteel", {block="gregtech:machine", subID=601}, "plateSteel"]
-    [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
+    [{oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}]
   ]
 }
 
@@ -1105,8 +1312,8 @@ carpetedcapacitor {
 capacitor {
   input: [
     ["", {block="gregtech:machine", subID=618}, ""]
-    [{block="gregtech:machine_casing", subID=1}, "oc:materialTransistor", {block="gregtech:machine_casing", subID=1}]
-    [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
+    [{block="gregtech:machine_casing", subID=3}, "oc:materialTransistor", {block="gregtech:machine_casing", subID=3}]
+    [{oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}]
   ]
 }
 
@@ -1114,55 +1321,55 @@ charger {
   input: [
     ["", "plateStainlessSteel", ""]
     [{block="gregtech:machine", subID=681}, {block="gregtech:machine_casing", subID=2}, {block="gregtech:machine", subID=681}]
-    ["oc:circuitChip3", "craftingToolWrench", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
+    ["oc:circuitChip3", "craftingToolWrench", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}]
   ]
 }
 
 netsplitter {
   input: [
-    ["screwIron", "cableGtSingleIron", "screwIron"]
-    ["cableGtSingleIron", "craftingPiston", "cableGtSingleIron"]
-    ["screwIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "cableGtSingleElectrum", "screwStainlessSteel"]
+    ["cableGtSingleElectrum", {item: "gregtech:meta_item_1", subID: 32642}, "cableGtSingleElectrum"]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 redstone {
   input: [
-    ["plateRedAlloy", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "plateRedAlloy"]
+    ["plateRedAlloy", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "plateRedAlloy"]
     ["plateRedAlloy", {block="gregtech:machine_casing", subID=2}, "oc:redstoneCard1"]
-    ["oc:circuitChip2", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "oc:circuitChip2"]
+    ["oc:circuitChip2", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "oc:circuitChip2"]
   ]
 }
 
 relay {
   input: [
     ["", "oc:lanCard", ""]
-    ["cableGtSingleIron", {block="gregtech:machine_casing", subID=2}, "cableGtSingleIron"]
-    [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolWrench", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
+    ["cableGtSingleElectrum", {block="gregtech:machine_casing", subID=2}, "cableGtSingleElectrum"]
+    [{oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolWrench", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}]
   ]
 }
 
 adapter {
   input: [
-    ["cableGtSingleIron", "oc:circuitChip1", "cableGtSingleIron"]
-    ["", {block="gregtech:machine_casing", subID=1}, ""]
-    [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "cableGtSingleIron", "craftingToolWrench"]
+    ["cableGtSingleElectrum", "oc:circuitChip1", "cableGtSingleElectrum"]
+    ["", {block="gregtech:machine_casing", subID=3}, ""]
+    [{oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "cableGtSingleElectrum", "craftingToolWrench"]
   ]
 }
 
 assembler {
   input: [
-    ["screwIron", "workbench", "screwIron"]
-    ["craftingPiston", "oc:circuitChip2", "craftingPiston"]
-    ["screwIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "workbench", "screwStainlessSteel"]
+    [{item: "gregtech:meta_item_1", subID: 32642}, "oc:circuitChip2", {item: "gregtech:meta_item_1", subID: 32642}]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 disassembler {
   input: [
     ["oc:materialCU", "paneGlass", "oc:analyzer"]
-    ["craftingPiston", "", "obsidian"]
-    ["screwIron", "craftingToolScrewdriver", "screwIron"]
+    [{item: "gregtech:meta_item_1", subID: 32642}, "", "obsidian"]
+    ["screwStainlessSteel", "craftingToolScrewdriver", "screwStainlessSteel"]
   ]
 }
 
@@ -1170,7 +1377,7 @@ geolyzer {
   input: [
     ["screwGold", "oc:analyzer", "screwGold"]
     ["eyeOfEnder", "oc:circuitChip2", "eyeOfEnder"]
-    ["screwGold", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwGold", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
    ]
 }
 
@@ -1178,32 +1385,32 @@ motionsensor {
   input: [
     ["screwGold", "daylightDetector", "screwGold"]
     ["daylightDetector", "oc:cpu2", "daylightDetector"]
-    ["screwGold", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwGold", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 printer {
   input: [
-    ["screwIron", "hopper", "screwIron"]
-    ["craftingPiston", "oc:circuitChip3", "craftingPiston"]
-    ["ingotIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "hopper", "screwStainlessSteel"]
+    [{item: "gregtech:meta_item_1", subID: 32642}, "oc:circuitChip3", {item: "gregtech:meta_item_1", subID: 32642}]
+    ["ingotSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
 transposer {
   input: [
-    ["screwIron", "oc:inventoryControllerUpgrade", screwIron]
+    ["screwStainlessSteel", "oc:inventoryControllerUpgrade", screwStainlessSteel]
     ["hopper", "bucket", "hopper"]
-    ["screwIron", "oc:tankControllerUpgrade", "craftingToolScrewdriver"]
+    ["screwStainlessSteel", "oc:tankControllerUpgrade", "craftingToolScrewdriver"]
   ]
   output: 4
 }
 
 waypoint {
   input: [
-    ["screwIron", "oc:circuitChip1", "screwIron"]
+    ["screwStainlessSteel", "oc:circuitChip1", "screwStainlessSteel"]
     ["oc:materialTransistor", "oc:materialInterweb", "oc:materialTransistor"],
-    ["screwIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "craftingToolScrewdriver"]
+    ["screwStainlessSteel", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "craftingToolScrewdriver"]
   ]
 }
 
@@ -1219,22 +1426,22 @@ diskdrivemountable {
   input: [
     ["obsidian", "oc:circuitChip1", "obsidian"]
     ["fenceIron", "oc:diskDrive", "fenceIron"]
-    ["obsidian", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "obsidian"]
+    ["obsidian", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "obsidian"]
   ]
 }
 
 inkcartridgeempty {
   input: [
-    ["wireGtSingleIron", "dispenser", "wireGtSingleIron"],
+    ["wireGtSingleElectrum", "dispenser", "wireGtSingleElectrum"],
     ["oc:materialTransistor", "bucket", "oc:materialTransistor"],
-    ["wireGtSingleIron", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "wireGtSingleIron"]
+    ["wireGtSingleElectrum", {oreDict: "circuitAdvanced", gtid: "circuit.advanced"}, "wireGtSingleElectrum"]
   ]
 }
 
 hoverboots {
   input: [
-    ["wireGtSingleIron", "oc:hoverUpgrade2", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "oc:hoverUpgrade2", "wireGtSingleElectrum"]
     ["leather", "oc:droneCase1", "leather"]
-    ["wireGtSingleIron", "oc:capacitor", "wireGtSingleIron"]
+    ["wireGtSingleElectrum", "oc:capacitor", "wireGtSingleElectrum"]
   ]
 }
