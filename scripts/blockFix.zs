@@ -24,14 +24,17 @@ val compressor = RecipeMap.getByName("compressor");
 <ore:ingotSignalum>.remove(<thermalfoundation:material:165>);
 <ore:ingotConstantan>.remove(<thermalfoundation:material:164>);
 <ore:ingotBronze>.remove(<thermalfoundation:material:163>);
+<ore:ingotBronze>.remove(<nuclearcraft:alloy:0>);
 <ore:ingotInvar>.remove(<thermalfoundation:material:162>);
 <ore:ingotElectrum>.remove(<thermalfoundation:material:161>);
 <ore:ingotSteel>.remove(<thermalfoundation:material:160>);
+<ore:ingotSteel>.remove(<nuclearcraft:alloy:5>);
 <ore:ingotIridium>.remove(<thermalfoundation:material:135>);
 <ore:ingotPlatinum>.remove(<thermalfoundation:material:134>);
 <ore:ingotNickel>.remove(<thermalfoundation:material:133>);
 <ore:ingotLead>.remove(<thermalfoundation:material:131>);
 <ore:ingotSilver>.remove(<thermalfoundation:material:130>);
+<ore:ingotSilver>.remove(<nuclearcraft:ingot:13>);
 <ore:ingotTin>.remove(<thermalfoundation:material:129>);
 <ore:ingotCopper>.remove(<thermalfoundation:material:128>);
 
@@ -63,4 +66,4 @@ compressor.findRecipe(2, [<refinedstorage:quartz_enriched_iron>*9], null).remove
 // Fixing Tough ingots to Blocks
 
 compressor.findRecipe(2, [<nuclearcraft:alloy:1>*9], null).remove();
-forgeHammer.recipeBuilder().inputs(<ore:ingotTough>).outputs(<ore:blockTough>.firstItem).duration(100).EUt(24).buildAndRegister();
+compressor.recipeBuilder().inputs(<ore:ingotTough>*9).outputs(<ore:blockTough>.firstItem).duration(400).EUt(2).buildAndRegister();
