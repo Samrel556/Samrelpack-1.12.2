@@ -3,7 +3,6 @@
   "density": 0.5,
   "max_height": 40,
   "min_height": 10,
-  "surface_stone_material": "uranium_radioactive",
   "generator": {
     "type": "ellipsoid",
     "radius": [
@@ -21,175 +20,175 @@
           "value": {
             "type": "state_match",
             "default": {
-              "block": "gregtech:ore_uranium_radioactive_0",
+              "block": "gregtech:ore_pitchblende",
               "stone_type": "stone"
             },
             "values": [
               {
                 "predicate": "ore_dict:stoneIgneousRed_granite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_pitchblende",
                   "type": "red_granite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneMetamorphicGneiss",
                 "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende",
                   "type": "gneiss"
                 }
               },
               {
                 "predicate": "ore_dict:stoneSedimentaryLimestone",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_pitchblende",
                   "type": "limestone"
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousBlack_granite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_pitchblende",
                   "type": "black_granite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneMetamorphicEclogite",
                 "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende",
                   "type": "eclogite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneSedimentaryChalk",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_pitchblende",
                   "type": "chalk"
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousRhyolite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_pitchblende",
                   "type": "rhyolite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneMetamorphicMarble",
                 "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende",
                   "type": "marble"
                 }
               },
               {
                 "predicate": "ore_dict:stoneSedimentaryShale",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_pitchblende",
                   "type": "shale"
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousAndesite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_pitchblende",
                   "type": "andesite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneMetamorphicuranium_radioactive",
                 "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende",
                   "type": "uranium_radioactive"
                 }
               },
               {
                 "predicate": "ore_dict:stoneSedimentarySiltstone",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_pitchblende",
                   "type": "siltstone"
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousGabbro",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_pitchblende",
                   "type": "gabbro"
                 }
               },
               {
                 "predicate": "ore_dict:stoneMetamorphicBlueschist",
                 "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende",
                   "type": "blueschist"
                 }
               },
               {
                 "predicate": "ore_dict:stoneSedimentaryLignite",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_pitchblende",
                   "type": "lignite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousBasalt",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_pitchblende",
                   "type": "basalt"
                 }
               },
               {
                 "predicate": "ore_dict:stoneMetamorphicGreenschist",
                 "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende",
                   "type": "greenschist"
                 }
               },
               {
                 "predicate": "ore_dict:stoneSedimentaryDolomite",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_pitchblende",
                   "type": "dolomite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousKomatiite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_pitchblende",
                   "type": "komatiite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneMetamorphicSoapstone",
                 "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende",
                   "type": "soapstone"
                 }
               },
               {
                 "predicate": "ore_dict:stoneSedimentaryGreywacke",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_pitchblende",
                   "type": "greywacke"
                 }
               },
               {
                 "predicate": "ore_dict:stoneIgneousDacite",
                 "value": {
-                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:igneous_stone_gregtech_ore_pitchblende",
                   "type": "dacite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneMetamorphicMigmatite",
                 "value": {
-                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende",
                   "type": "migmatite"
                 }
               },
               {
                 "predicate": "ore_dict:stoneSedimentaryChert",
                 "value": {
-                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_uranium_radioactive_0",
+                  "block": "undergroundbiomes:sedimentary_stone_gregtech_ore_pitchblende",
                   "type": "chert"
                 }
               }

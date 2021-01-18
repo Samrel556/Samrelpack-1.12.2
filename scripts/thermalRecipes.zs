@@ -14,10 +14,10 @@ val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 
 // Alloy Smelter
     alloySmelter.recipeBuilder().inputs(<ore:dustLead>,<ore:dustObsidian>*4).outputs(<thermalfoundation:glass:3>*2).duration(40).EUt(120).buildAndRegister();
-    alloySmelter.recipeBuilder().inputs([<gregtech:meta_item_1:2018>*2, <gregtech:meta_item_1:2044>]).outputs(<gregtech:meta_item_1:10705>*3).duration(200).EUt(16).buildAndRegister();
-    alloySmelter.recipeBuilder().inputs([<gregtech:meta_item_1:2018>*2, <gregtech:meta_item_1:10044>]).outputs(<gregtech:meta_item_1:10705>*3).duration(200).EUt(16).buildAndRegister();
-    alloySmelter.recipeBuilder().inputs([<gregtech:meta_item_1:10018>*2, <gregtech:meta_item_1:2044>]).outputs(<gregtech:meta_item_1:10705>*3).duration(200).EUt(16).buildAndRegister();
-    alloySmelter.recipeBuilder().inputs([<gregtech:meta_item_1:10018>*2, <gregtech:meta_item_1:10044>]).outputs(<gregtech:meta_item_1:10705>*3).duration(200).EUt(16).buildAndRegister();
+    alloySmelter.recipeBuilder().inputs([<gregtech:meta_item_1:2018>*2, <gregtech:meta_item_1:2044>]).outputs(<gregtech:meta_item_1:10500>*3).duration(200).EUt(16).buildAndRegister();
+    alloySmelter.recipeBuilder().inputs([<gregtech:meta_item_1:2018>*2, <gregtech:meta_item_1:10044>]).outputs(<gregtech:meta_item_1:10500>*3).duration(200).EUt(16).buildAndRegister();
+    alloySmelter.recipeBuilder().inputs([<gregtech:meta_item_1:10018>*2, <gregtech:meta_item_1:2044>]).outputs(<gregtech:meta_item_1:10500>*3).duration(200).EUt(16).buildAndRegister();
+    alloySmelter.recipeBuilder().inputs([<gregtech:meta_item_1:10018>*2, <gregtech:meta_item_1:10044>]).outputs(<gregtech:meta_item_1:10500>*3).duration(200).EUt(16).buildAndRegister();
 
 // Compressor
     compressor.recipeBuilder().inputs(<minecraft:blaze_powder>*5).outputs(<minecraft:blaze_rod>).duration(100).EUt(30).buildAndRegister();
@@ -73,10 +73,14 @@ val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
     blastFurnace.recipeBuilder()
         .inputs(<nuclearcraft:alloy:8>)
         .fluidInputs(<liquid:glowstone>*250)
-        .outputs(<gregtech:meta_item_1:11706>)
+        .outputs(<gregtech:meta_item_1:11501>)
         .duration(4500).EUt(120)
         .property("temperature", 5400).buildAndRegister();
-    blastFurnace.recipeBuilder().inputs(<nuclearcraft:alloy:7>).fluidInputs(<liquid:redstone>*250).outputs(<gregtech:meta_item_1:11707>).duration(8820).EUt(120).property("temperature", 4500).buildAndRegister();
+    blastFurnace.recipeBuilder()
+        .inputs(<nuclearcraft:alloy:7>)
+        .fluidInputs(<liquid:redstone>*250)
+        .outputs(<gregtech:meta_item_1:11502>)
+        .duration(8820).EUt(120).property("temperature", 4500).buildAndRegister();
 
 // Mixer 
     mixer.recipeBuilder().inputs([<gregtech:meta_item_1:2018>*2, <gregtech:meta_item_1:2044>]).outputs(<gregtech:meta_item_1:2705>*3).duration(400).EUt(8).buildAndRegister();
