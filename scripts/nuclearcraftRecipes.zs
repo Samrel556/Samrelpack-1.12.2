@@ -1194,7 +1194,7 @@ recipes.addShaped(<nuclearcraft:part:11>,
 ,[plateBasic,plateZircaloy,plateBasic]]);
 
 recipes.remove(<nuclearcraft:part:12>);
-recipes.addShaped(<nuclearcraft:part:10>,
+recipes.addShaped(<nuclearcraft:part:12>,
 [[plateSteel,plateTough,plateSteel]
 ,[plateTough,<thermalexpansion:frame:0>,plateTough]
 ,[plateSteel,plateTough,plateSteel]]);
