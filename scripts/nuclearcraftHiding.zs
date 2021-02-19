@@ -10,8 +10,6 @@ chemBath.findRecipe(16, [<nuclearcraft:alloy:9>], [<liquid:ender>*250]).remove()
 chemBath.findRecipe(8, [<nuclearcraft:part:6>*2], [<liquid:radaway>*250]).remove();
 chemBath.findRecipe(8, [<nuclearcraft:part:6>*2], [<liquid:radaway_slow>*250]).remove();
 alloySmelter.findRecipe(32, [<ore:itemSilicon>.firstItem, <ore:ingotGraphite>.firstItem], null).remove();
-alloySmelter.findRecipe(32, [<ore:itemSilicon>.firstItem, <ore:dustGraphite>.firstItem], null).remove();
-alloySmelter.findRecipe(32, [<ore:ingotSilicon>.firstItem, <ore:dustGraphite>.firstItem], null).remove();
 alloySmelter.findRecipe(32, [<ore:ingotSilicon>.firstItem, <ore:ingotGraphite>.firstItem], null).remove();
 // Hiding ingots
 for i in 8 to 14{
@@ -19,6 +17,7 @@ for i in 8 to 14{
     mods.jei.JEI.removeAndHide(<nuclearcraft:ingot_block>.definition.makeStack(i));
     mods.jei.JEI.removeAndHide(<nuclearcraft:dust>.definition.makeStack(i));
 }
+
 mods.jei.JEI.removeAndHide(<nuclearcraft:gem_dust:0>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:gem_dust:2>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:gem_dust:3>);
