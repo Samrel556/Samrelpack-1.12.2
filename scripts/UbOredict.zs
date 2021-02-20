@@ -1,11 +1,9 @@
 // Red Granite Igneous:
-<ore:stone>.remove(<undergroundbiomes:igneous_stone:0>);
 <ore:stoneIgneousRed_granite>.add(<undergroundbiomes:igneous_stone:0>);
 <ore:sandIgneousRed_granite>.add(<undergroundbiomes:igneous_sand:0>);
 <ore:gravelIgneousRed_granite>.add(<undergroundbiomes:igneous_gravel:0>);
 
 // Black Granite Igneous:
-<ore:stone>.remove(<undergroundbiomes:igneous_stone:1>);
 <ore:stoneIgneousBlack_granite>.add(<undergroundbiomes:igneous_stone:1>);
 <ore:sandIgneousBlack_granite>.add(<undergroundbiomes:igneous_sand:1>);
 <ore:gravelIgneousBlack_granite>.add(<undergroundbiomes:igneous_gravel:1>);
@@ -26,7 +24,6 @@
 <ore:gravelIgneousGabbro>.add(<undergroundbiomes:igneous_gravel:4>);
 
 // Basalt Igneous:
-<ore:stone>.remove(<undergroundbiomes:igneous_stone:5>);
 <ore:stoneIgneousBasalt>.add(<undergroundbiomes:igneous_stone:5>);
 <ore:sandIgneousBasalt>.add(<undergroundbiomes:igneous_sand:5>);
 <ore:gravelIgneousBasalt>.add(<undergroundbiomes:igneous_gravel:5>);
@@ -52,7 +49,6 @@
 <ore:gravelMetamorphicEclogite>.add(<undergroundbiomes:metamorphic_gravel:1>);
 
 // Marble Metamorphic:
-<ore:stone>.remove(<undergroundbiomes:metamorphic_stone:2>);
 <ore:stoneMetamorphicMarble>.add(<undergroundbiomes:metamorphic_stone:2>);
 <ore:sandMetamorphicMarble>.add(<undergroundbiomes:metamorphic_sand:2>);
 <ore:gravelMetamorphicMarble>.add(<undergroundbiomes:metamorphic_gravel:2>);
