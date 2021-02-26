@@ -15,7 +15,6 @@
     mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:817>);
     mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:816>);
     mods.thermalexpansion.Crucible.removeRecipe(<aunis:naquadah_ore>);
-    mods.thermalexpansion.Crucible.removeRecipe(<aunis:naquadah_ore_stone>);
     mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:1026>);
     mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:1024>);
     mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:1025>);

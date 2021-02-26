@@ -1,682 +1,685 @@
 import mods.dropt.Dropt; 
  
 Dropt.list("almandine")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_almandine_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_almandine_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_almandine_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_almandine_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_almandine_0:5>])));
 Dropt.list("aluminium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_aluminium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_aluminium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_aluminium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_aluminium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_aluminium_0:5>])));
 Dropt.list("alunite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_alunite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_alunite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_alunite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_alunite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_alunite_0:5>])));
 Dropt.list("amethyst")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_amethyst_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_amethyst_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_amethyst_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_amethyst_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_amethyst_0:5>])));
 Dropt.list("andradite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_andradite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_andradite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_andradite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_andradite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_andradite_0:5>])));
 Dropt.list("apatite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_apatite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_apatite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_apatite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_apatite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_apatite_0:5>])));
 Dropt.list("banded_iron")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_banded_iron_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_banded_iron_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_banded_iron_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_banded_iron_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_banded_iron_0:5>])));
 Dropt.list("barite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_barite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_barite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_barite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_barite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_barite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_barite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_barite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_barite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_barite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_barite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_barite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_barite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_barite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_barite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_barite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_barite_0:5>])));
 Dropt.list("basaltic_mineral_sand")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_basaltic_mineral_sand_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_basaltic_mineral_sand_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_basaltic_mineral_sand_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_basaltic_mineral_sand_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_basaltic_mineral_sand_0:5>])));
 Dropt.list("bastnasite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bastnasite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bastnasite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bastnasite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bastnasite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bastnasite_0:5>])));
 Dropt.list("bauxite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bauxite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bauxite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bauxite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bauxite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bauxite_0:5>])));
 Dropt.list("bentonite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bentonite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bentonite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bentonite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bentonite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bentonite_0:5>])));
 Dropt.list("beryllium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_beryllium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_beryllium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_beryllium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_beryllium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_beryllium_0:5>])));
 Dropt.list("bismuth")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bismuth_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bismuth_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bismuth_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bismuth_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bismuth_0:5>])));
 Dropt.list("blue_topaz")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_blue_topaz_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_blue_topaz_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_blue_topaz_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_blue_topaz_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_blue_topaz_0:5>])));
 Dropt.list("bornite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bornite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bornite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_bornite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_bornite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_bornite_0:5>])));
 Dropt.list("brown_limonite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_brown_limonite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_brown_limonite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_brown_limonite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_brown_limonite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_brown_limonite_0:5>])));
 Dropt.list("calcite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_calcite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_calcite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_calcite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_calcite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_calcite_0:5>])));
 Dropt.list("cassiterite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cassiterite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cassiterite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cassiterite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cassiterite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cassiterite_0:5>])));
 Dropt.list("certus_quartz")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_certus_quartz_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_certus_quartz_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_certus_quartz_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_certus_quartz_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_certus_quartz_0:5>])));
 Dropt.list("chalcocite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_chalcocite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_chalcocite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_chalcocite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_chalcocite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcocite_0:5>])));
 Dropt.list("chalcopyrite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_chalcopyrite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_chalcopyrite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_chalcopyrite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_chalcopyrite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chalcopyrite_0:5>])));
 Dropt.list("chromite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_chromite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_chromite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_chromite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_chromite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_chromite_0:5>])));
 Dropt.list("cinnabar")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cinnabar_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cinnabar_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cinnabar_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cinnabar_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cinnabar_0:5>])));
 Dropt.list("coal")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_coal_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_coal_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_coal_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_coal_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_coal_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_coal_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_coal_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_coal_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_coal_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_coal_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_coal_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_coal_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_coal_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_coal_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_coal_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_coal_0:5>])));
 Dropt.list("cobalt")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cobalt_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cobalt_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cobalt_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cobalt_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobalt_0:5>])));
 Dropt.list("cobaltite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cobaltite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cobaltite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cobaltite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cobaltite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cobaltite_0:5>])));
 Dropt.list("cooperite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cooperite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cooperite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cooperite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cooperite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cooperite_0:5>])));
 Dropt.list("copper")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_copper_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_copper_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_copper_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_copper_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_copper_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_copper_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_copper_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_copper_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_copper_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_copper_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_copper_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_copper_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_copper_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_copper_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_copper_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_copper_0:5>])));
 Dropt.list("cuprite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cuprite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cuprite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_cuprite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_cuprite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_cuprite_0:5>])));
 Dropt.list("diamond")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_diamond_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_diamond_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_diamond_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_diamond_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diamond_0:5>])));
 Dropt.list("diatomite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_diatomite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_diatomite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_diatomite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_diatomite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_diatomite_0:5>])));
 Dropt.list("emerald")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_emerald_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_emerald_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_emerald_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_emerald_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_emerald_0:5>])));
 Dropt.list("enargite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_enargite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_enargite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_enargite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_enargite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_enargite_0:5>])));
 Dropt.list("fullers_earth")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_fullers_earth_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_fullers_earth_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_fullers_earth_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_fullers_earth_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_fullers_earth_0:5>])));
 Dropt.list("galena")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_galena_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_galena_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_galena_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_galena_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_galena_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_galena_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_galena_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_galena_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_galena_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_galena_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_galena_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_galena_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_galena_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_galena_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_galena_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_galena_0:5>])));
 Dropt.list("garnet_red")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_garnet_red_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_garnet_red_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_garnet_red_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_garnet_red_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_red_0:5>])));
 Dropt.list("garnet_yellow")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_garnet_yellow_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_garnet_yellow_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_garnet_yellow_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_garnet_yellow_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnet_yellow_0:5>])));
 Dropt.list("garnierite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_garnierite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_garnierite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_garnierite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_garnierite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_garnierite_0:5>])));
 Dropt.list("glauconite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_glauconite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_glauconite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_glauconite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_glauconite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:5>])));
 Dropt.list("glauconite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_glauconite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_glauconite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_glauconite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_glauconite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_glauconite_0:5>])));
 Dropt.list("gold")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gold_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gold_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gold_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gold_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gold_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gold_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gold_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gold_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gold_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gold_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_gold_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gold_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gold_0:5>])));
 Dropt.list("granitic_mineral_sand")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_granitic_mineral_sand_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_granitic_mineral_sand_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_granitic_mineral_sand_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_granitic_mineral_sand_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_granitic_mineral_sand_0:5>])));
 Dropt.list("graphite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_graphite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_graphite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_graphite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_graphite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_graphite_0:5>])));
 Dropt.list("green_sapphire")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_green_sapphire_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_green_sapphire_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_green_sapphire_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_green_sapphire_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_green_sapphire_0:5>])));
 Dropt.list("grossular")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_grossular_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_grossular_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_grossular_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_grossular_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_grossular_0:5>])));
 Dropt.list("gypsum")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_gypsum_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_gypsum_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_gypsum_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_gypsum_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_gypsum_0:5>])));
 Dropt.list("ilmenite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_ilmenite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_ilmenite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_ilmenite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_ilmenite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ilmenite_0:5>])));
 Dropt.list("iridium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_iridium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_iridium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_iridium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_iridium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_0:5>])));
 Dropt.list("iridium_metal_residue")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_iridium_metal_residue_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_iridium_metal_residue_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_iridium_metal_residue_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_iridium_metal_residue_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iridium_metal_residue_0:5>])));
 Dropt.list("iron")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iron_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iron_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iron_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iron_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iron_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iron_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iron_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iron_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iron_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iron_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_iron_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_iron_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_iron_0:5>])));
 Dropt.list("jasper")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_jasper_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_jasper_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_jasper_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_jasper_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_jasper_0:5>])));
 Dropt.list("kaolinite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_kaolinite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_kaolinite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_kaolinite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_kaolinite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kaolinite_0:5>])));
 Dropt.list("kyanite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_kyanite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_kyanite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_kyanite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_kyanite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_kyanite_0:5>])));
 Dropt.list("lapis")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lapis_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lapis_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lapis_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lapis_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lapis_0:5>])));
 Dropt.list("lazurite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lazurite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lazurite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lazurite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lazurite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lazurite_0:5>])));
 Dropt.list("lead")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lead_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lead_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lead_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lead_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lead_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lead_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lead_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lead_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lead_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lead_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lead_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lead_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lead_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lead_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lead_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lead_0:5>])));
 Dropt.list("lepidolite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lepidolite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lepidolite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lepidolite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lepidolite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lepidolite_0:5>])));
 Dropt.list("lignite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lignite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lignite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lignite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lignite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lignite_0:5>])));
 Dropt.list("lithium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lithium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lithium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_lithium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_lithium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_lithium_0:5>])));
 Dropt.list("magnesite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_magnesite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_magnesite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_magnesite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_magnesite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnesite_0:5>])));
 Dropt.list("magnetite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_magnetite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_magnetite_0:5>])));
 Dropt.list("malachite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_malachite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_malachite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_malachite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_malachite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_malachite_0:5>])));
 Dropt.list("mica")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_mica_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_mica_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_mica_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_mica_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_mica_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_mica_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_mica_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_mica_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_mica_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_mica_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_mica_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_mica_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_mica_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_mica_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_mica_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_mica_0:5>])));
 Dropt.list("molybdenite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_molybdenite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_molybdenite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_molybdenite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_molybdenite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenite_0:5>])));
 Dropt.list("molybdenum")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_molybdenum_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_molybdenum_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_molybdenum_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_molybdenum_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_molybdenum_0:5>])));
 Dropt.list("monazite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_monazite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_monazite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_monazite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_monazite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_monazite_0:5>])));
 Dropt.list("naquadah")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_naquadah_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_naquadah_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_naquadah_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_naquadah_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_0:5>])));
 Dropt.list("naquadah_enriched")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_naquadah_enriched_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_naquadah_enriched_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_naquadah_enriched_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_naquadah_enriched_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_naquadah_enriched_0:5>])));
 Dropt.list("neodymium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_neodymium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_neodymium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_neodymium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_neodymium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_neodymium_0:5>])));
 Dropt.list("nether_quartz")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_nether_quartz_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_nether_quartz_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_nether_quartz_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_nether_quartz_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nether_quartz_0:5>])));
 Dropt.list("nickel")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_nickel_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_nickel_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_nickel_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_nickel_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_nickel_0:5>])));
 Dropt.list("niobium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_niobium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_niobium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_niobium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_niobium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niobium_0:5>])));
 Dropt.list("niter")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niter_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niter_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niter_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niter_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_niter_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_niter_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niter_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niter_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niter_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niter_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niter_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niter_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_niter_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_niter_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_niter_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_niter_0:5>])));
 Dropt.list("oilsands")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_oilsands_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_oilsands_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_oilsands_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_oilsands_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_oilsands_0:5>])));
 Dropt.list("olivine")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_olivine_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_olivine_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_olivine_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_olivine_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_olivine_0:5>])));
 Dropt.list("opal")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_opal_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_opal_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_opal_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_opal_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_opal_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_opal_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_opal_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_opal_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_opal_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_opal_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_opal_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_opal_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_opal_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_opal_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_opal_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_opal_0:5>])));
 Dropt.list("osmium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_osmium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_osmium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_osmium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_osmium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_osmium_0:5>])));
 Dropt.list("palladium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_palladium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_palladium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_palladium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_palladium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_0:5>])));
 Dropt.list("palladium_metallic_powder")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_palladium_metallic_powder_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_palladium_metallic_powder_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_palladium_metallic_powder_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_palladium_metallic_powder_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_palladium_metallic_powder_0:5>])));
 Dropt.list("pentlandite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pentlandite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pentlandite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pentlandite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pentlandite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pentlandite_0:5>])));
 Dropt.list("phosphate")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_phosphate_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_phosphate_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_phosphate_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_phosphate_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphate_0:5>])));
 Dropt.list("phosphor")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_phosphor_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_phosphor_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_phosphor_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_phosphor_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_phosphor_0:5>])));
 Dropt.list("pitchblende")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pitchblende_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pitchblende_0:5>])));
 Dropt.list("platinum")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_platinum_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_platinum_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_platinum_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_platinum_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_0:5>])));
 Dropt.list("platinum_metallic_powder")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_platinum_metallic_powder_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_platinum_metallic_powder_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_platinum_metallic_powder_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_platinum_metallic_powder_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_platinum_metallic_powder_0:5>])));
 Dropt.list("pollucite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pollucite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pollucite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pollucite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pollucite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pollucite_0:5>])));
 Dropt.list("powellite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_powellite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_powellite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_powellite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_powellite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_powellite_0:5>])));
 Dropt.list("prasiolite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_prasiolite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_prasiolite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_prasiolite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_prasiolite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_prasiolite_0:5>])));
 Dropt.list("precious_metal")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_precious_metal_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_precious_metal_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_precious_metal_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_precious_metal_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_precious_metal_0:5>])));
 Dropt.list("pyrite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pyrite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pyrite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pyrite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pyrite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrite_0:5>])));
 Dropt.list("pyrolusite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pyrolusite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pyrolusite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pyrolusite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pyrolusite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrolusite_0:5>])));
 Dropt.list("pyrope")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pyrope_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pyrope_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_pyrope_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_pyrope_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_pyrope_0:5>])));
 Dropt.list("quartzite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_quartzite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_quartzite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_quartzite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_quartzite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_quartzite_0:5>])));
 Dropt.list("rarest_metal_residue")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_rarest_metal_residue_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_rarest_metal_residue_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_rarest_metal_residue_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_rarest_metal_residue_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rarest_metal_residue_0:5>])));
 Dropt.list("redstone")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_redstone_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_redstone_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_redstone_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_redstone_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_redstone_0:5>])));
 Dropt.list("rock_salt")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_rock_salt_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_rock_salt_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_rock_salt_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_rock_salt_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rock_salt_0:5>])));
 Dropt.list("ruby")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_ruby_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_ruby_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_ruby_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_ruby_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_ruby_0:5>])));
 Dropt.list("rutile")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_rutile_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_rutile_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_rutile_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_rutile_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_rutile_0:5>])));
 Dropt.list("salt")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_salt_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_salt_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_salt_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_salt_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_salt_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_salt_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_salt_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_salt_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_salt_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_salt_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_salt_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_salt_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_salt_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_salt_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_salt_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_salt_0:5>])));
 Dropt.list("saltpeter")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_saltpeter_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_saltpeter_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_saltpeter_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_saltpeter_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_saltpeter_0:5>])));
 Dropt.list("sapphire")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_sapphire_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_sapphire_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_sapphire_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_sapphire_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sapphire_0:5>])));
 Dropt.list("scheelite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_scheelite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_scheelite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_scheelite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_scheelite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_scheelite_0:5>])));
 Dropt.list("silver")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_silver_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_silver_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_silver_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_silver_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_silver_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_silver_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_silver_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_silver_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_silver_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_silver_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_silver_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_silver_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_silver_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_silver_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_silver_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_silver_0:5>])));
 Dropt.list("soapstone")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_soapstone_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_soapstone_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_soapstone_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_soapstone_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_soapstone_0:5>])));
 Dropt.list("sodalite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_sodalite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_sodalite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_sodalite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_sodalite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sodalite_0:5>])));
 Dropt.list("spessartine")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_spessartine_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_spessartine_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_spessartine_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_spessartine_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spessartine_0:5>])));
 Dropt.list("sphalerite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_sphalerite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_sphalerite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_sphalerite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_sphalerite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sphalerite_0:5>])));
 Dropt.list("spodumene")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_spodumene_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_spodumene_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_spodumene_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_spodumene_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_spodumene_0:5>])));
 Dropt.list("stibnite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_stibnite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_stibnite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_stibnite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_stibnite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_stibnite_0:5>])));
 Dropt.list("sulfur")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_sulfur_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_sulfur_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_sulfur_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_sulfur_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_sulfur_0:5>])));
 Dropt.list("talc")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_talc_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_talc_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_talc_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_talc_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_talc_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_talc_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_talc_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_talc_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_talc_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_talc_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_talc_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_talc_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_talc_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_talc_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_talc_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_talc_0:5>])));
 Dropt.list("tantalite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tantalite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tantalite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tantalite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tantalite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tantalite_0:5>])));
 Dropt.list("tanzanite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tanzanite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tanzanite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tanzanite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tanzanite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tanzanite_0:5>])));
 Dropt.list("tellurium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tellurium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tellurium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tellurium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tellurium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tellurium_0:5>])));
 Dropt.list("tennantite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tennantite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tennantite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tennantite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tennantite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tennantite_0:5>])));
 Dropt.list("tenorite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tenorite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tenorite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tenorite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tenorite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tenorite_0:5>])));
 Dropt.list("tetrahedrite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tetrahedrite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tetrahedrite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tetrahedrite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tetrahedrite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tetrahedrite_0:5>])));
 Dropt.list("thorium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_thorium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_thorium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_thorium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_thorium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_thorium_0:5>])));
 Dropt.list("tin")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tin_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tin_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tin_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tin_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tin_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tin_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tin_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tin_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tin_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tin_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tin_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tin_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tin_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tin_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tin_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tin_0:5>])));
 Dropt.list("topaz")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_topaz_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_topaz_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_topaz_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_topaz_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_topaz_0:5>])));
 Dropt.list("trona")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_trona_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_trona_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_trona_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_trona_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_trona_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_trona_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_trona_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_trona_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_trona_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_trona_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_trona_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_trona_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_trona_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_trona_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_trona_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_trona_0:5>])));
 Dropt.list("tungstate")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tungstate_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tungstate_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_tungstate_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_tungstate_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_tungstate_0:5>])));
 Dropt.list("uraninite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_uraninite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_uraninite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_uraninite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_uraninite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uraninite_0:5>])));
 Dropt.list("uranium")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_0:5>])));
 Dropt.list("uranium235")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_uranium235_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_uranium235_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_uranium235_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_uranium235_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium235_0:5>])));
 Dropt.list("uranium_radioactive")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_uranium_radioactive_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_uranium_radioactive_0:5>])));
 Dropt.list("vanadium_magnetite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_vanadium_magnetite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vanadium_magnetite_0:5>])));
 Dropt.list("vermiculite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_vermiculite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_vermiculite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_vermiculite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_vermiculite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vermiculite_0:5>])));
 Dropt.list("vinteum")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_vinteum_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_vinteum_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_vinteum_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_vinteum_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_vinteum_0:5>])));
 Dropt.list("wollastonite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_wollastonite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_wollastonite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_wollastonite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_wollastonite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wollastonite_0:5>])));
 Dropt.list("wulfenite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_wulfenite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_wulfenite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_wulfenite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_wulfenite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_wulfenite_0:5>])));
 Dropt.list("yellow_limonite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_yellow_limonite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_yellow_limonite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_yellow_limonite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_yellow_limonite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_yellow_limonite_0:5>])));
 Dropt.list("zeolite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_zeolite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_zeolite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_zeolite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_zeolite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zeolite_0:5>])));
 Dropt.list("zinc")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_zinc_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_zinc_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_zinc_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_zinc_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zinc_0:5>])));
 Dropt.list("zirkelite")
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:0>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:1>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_zirkelite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_zirkelite_0:2>])))
-.add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:5>])));
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:0"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:0>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:1"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:1>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:metamorphic_stone_gregtech_ore_zirkelite_0:2"]).addDrop(Dropt.drop().items([<undergroundbiomes:metamorphic_stone_gregtech_ore_zirkelite_0:2>])))
+    .add(Dropt.rule().matchBlocks(["undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:5"]).addDrop(Dropt.drop().items([<undergroundbiomes:igneous_stone_gregtech_ore_zirkelite_0:5>])));
+Dropt.list("aunis")
+    .add(Dropt.rule().matchBlocks(["aunis:naquadah_ore"]).addDrop(Dropt.drop().items([<gregtech:ore_naquadric_compound_0:6>])));
+
