@@ -542,6 +542,8 @@ val plateFerroboron = <ore:plateFerroboron>;
 val plateThermoconducting = <ore:plateThermoconducting>;
 val plateHslaSteel = <ore:plateHSLASteel>;
 val plateSicCmc = <ore:plateSicSicCmc>;
+val plateCurvedTough = <ore:plateCurvedTough>;
+val plateCurvedHardCarbon = <ore:plateCurvedHardCarbon>;
 val wireFineCopper = <ore:wireFineCopper>;
 val glassBorosilicate = <gtadditions:ga_transparent_casing:1>;
 val glassReinforced = <gtadditions:ga_transparent_casing:0>;
@@ -554,6 +556,7 @@ val circuitLUV = <ore:circuitMaster>;
 val motorEV = <gregtech:meta_item_1:32603>;
 val armEV = <gregtech:meta_item_1:32653>;
 val pumpEV = <gregtech:meta_item_1:32613>;
+val hammer = <gregtech:meta_tool:6>;
 
 recipes.removeShaped(<nuclearcraft:fission_block>);
 recipes.addShaped(<nuclearcraft:fission_block>*2,
@@ -1216,3 +1219,47 @@ recipes.addShaped(<nuclearcraft:lithium_ion_cell>,
 [[plateHardCarbon,plateHardCarbon,plateHardCarbon]
 ,[plateFerroboron,<ore:dustLithium>,plateFerroboron]
 ,[<ore:plateLithiumManganeseDioxide>,<ore:plateLithiumManganeseDioxide>,<ore:plateLithiumManganeseDioxide>]]);
+
+recipes.remove(<nuclearcraft:helm_tough>);
+recipes.addShaped(<nuclearcraft:helm_tough>,
+[[plateTough,plateTough,plateTough]
+,[plateCurvedTough,hammer,plateCurvedTough]]);
+
+recipes.remove(<nuclearcraft:chest_tough>);
+recipes.addShaped(<nuclearcraft:chest_tough>,
+[[plateTough,hammer,plateTough]
+,[plateCurvedTough,plateTough,plateCurvedTough]
+,[plateCurvedTough,plateTough,plateCurvedTough]]);
+
+recipes.remove(<nuclearcraft:legs_tough>);
+recipes.addShaped(<nuclearcraft:legs_tough>,
+[[plateTough,plateCurvedTough,plateTough]
+,[plateCurvedTough,hammer,plateCurvedTough]
+,[plateCurvedTough,null,plateCurvedTough]]);
+
+recipes.remove(<nuclearcraft:boots_tough>);
+recipes.addShaped(<nuclearcraft:boots_tough>,
+[[plateTough,null,plateTough]
+,[plateCurvedTough,hammer,plateCurvedTough]]);
+
+recipes.remove(<nuclearcraft:helm_hard_carbon>);
+recipes.addShaped(<nuclearcraft:helm_hard_carbon>,
+[[plateHardCarbon,plateHardCarbon,plateHardCarbon]
+,[plateCurvedHardCarbon,hammer,plateCurvedHardCarbon]]);
+
+recipes.remove(<nuclearcraft:chest_hard_carbon>);
+recipes.addShaped(<nuclearcraft:chest_hard_carbon>,
+[[plateHardCarbon,hammer,plateHardCarbon]
+,[plateCurvedHardCarbon,plateHardCarbon,plateCurvedHardCarbon]
+,[plateCurvedHardCarbon,plateHardCarbon,plateCurvedHardCarbon]]);
+
+recipes.remove(<nuclearcraft:legs_hard_carbon>);
+recipes.addShaped(<nuclearcraft:legs_hard_carbon>,
+[[plateHardCarbon,plateCurvedHardCarbon,plateHardCarbon]
+,[plateCurvedHardCarbon,hammer,plateCurvedHardCarbon]
+,[plateCurvedHardCarbon,null,plateCurvedHardCarbon]]);
+
+recipes.remove(<nuclearcraft:boots_hard_carbon>);
+recipes.addShaped(<nuclearcraft:boots_hard_carbon>,
+[[plateHardCarbon,null,plateHardCarbon]
+,[plateCurvedHardCarbon,hammer,plateCurvedHardCarbon]]);
