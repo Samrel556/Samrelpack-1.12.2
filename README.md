@@ -4,7 +4,7 @@ Minecraft Version 1.12.2
 Forge Version 14.23.5.2854
 
 To create a playable instance:
-
+A:
 	-Select "Add Instance"
 	-Select the 1.12.2 minecraft version from the list
 	-Name it "SamrelPack-1.12.2"
@@ -22,3 +22,7 @@ To create a playable instance:
 	-Move contents of extracted folder into the .minecraft folder
 	-Launch the instance
 	-Now you can play!
+B:
+	-Download the included zip (Not the source)
+	-Drag and Drop the zip file into MultiMC. Like literally drop it into the window tha pops up when you open it
+	-Profit!
