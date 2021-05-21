@@ -748,12 +748,12 @@ recipes.addShaped(<thermalfoundation:upgrade:3>,
 
 // Phyto-grow
 recipes.remove(<thermalfoundation:fertilizer:0>);
-recipes.addShapeless(<thermalfoundation:fertilizer:0>*4, [<gregtech:meta_item_1:2169>, <gregtech:meta_item_1:2169>, <gregtech:meta_item_1:2156>, <gregtech:meta_item_1:2089>]);
+recipes.addShapeless(<thermalfoundation:fertilizer:0>*4, [<gregtech:meta_item_1:2196>, <gregtech:meta_item_1:2196>, <gregtech:meta_item_1:2156>, <gregtech:meta_item_1:2089>]);
 recipes.addShapeless(<thermalfoundation:fertilizer:0>*16, [<ore:dustCharcoal>, <gregtech:meta_item_1:2156>, <gregtech:meta_item_1:2089>]);
 
 // Rich Pyto-grow
 recipes.remove(<thermalfoundation:fertilizer:1>);
-recipes.addShapeless(<thermalfoundation:fertilizer:1>*4, [<gregtech:meta_item_1:2169>, <gregtech:meta_item_1:2169>, <gregtech:meta_item_1:2156>, <gregtech:meta_item_1:2402>]);
+recipes.addShapeless(<thermalfoundation:fertilizer:1>*4, [<gregtech:meta_item_1:2196>, <gregtech:meta_item_1:2196>, <gregtech:meta_item_1:2156>, <gregtech:meta_item_1:2402>]);
 recipes.addShapeless(<thermalfoundation:fertilizer:1>*16, [<ore:dustCharcoal>, <gregtech:meta_item_1:2156>, <gregtech:meta_item_1:2402>]);
 
 // Reception Coil

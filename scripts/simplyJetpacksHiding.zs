@@ -1,12 +1,12 @@
 // Simply Jetpacks Hiding
 
 // Hiding Fluxpacks
-    for i in 0 to 11{
+    for i in 0 to 15{
         mods.jei.JEI.removeAndHide(<simplyjetpacks:itemfluxpack>.definition.makeStack(i));
     }
 
 // Hiding Fluxed Stuff
-    mods.jei.JEI.removeAndHide(<simplyjetpacks:itemjetpack:18>);
-    mods.jei.JEI.removeAndHide(<simplyjetpacks:metaitemmods:16>);
-    mods.jei.JEI.removeAndHide(<simplyjetpacks:metaitemmods:17>);
-    mods.jei.JEI.removeAndHide(<simplyjetpacks:metaitemmods:30>);
+    mods.jei.JEI.removeAndHide(<simplyjetpacks:itemjetpack:24>);
+    mods.jei.JEI.removeAndHide(<simplyjetpacks:metaitemmods:24>);
+    mods.jei.JEI.removeAndHide(<simplyjetpacks:metaitemmods:25>);
+    mods.jei.JEI.removeAndHide(<simplyjetpacks:metaitemmods:26>);

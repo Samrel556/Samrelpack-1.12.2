@@ -42,8 +42,6 @@ extreme.addFlags("GENERATE_PLATE");
 val hslaSteel = MaterialRegistry.createIngotMaterial(511, "h_s_l_a_steel", 0x7269A1, "METALLIC", 1, [<material:carbon>*1, <material:manganese>*1, <material:iron>*1]);
 hslaSteel.addFlags(["GENERATE_PLATE", "GENERATE_ROD"]);
 
-val siliconCarbide = MaterialRegistry.createIngotMaterial(512, "silicon_carbide", 0x6F6C61, "DULL", 1, [<material:carbon>*1, <material:silicon>*1]);
-
 val sicSicCmc = MaterialRegistry.createIngotMaterial(513, "sic_sic_cmc", 0x726E64, "DULL", 1, [<material:carbon>*1, <material:silicon>*1]);
 sicSicCmc.addFlags("GENERATE_PLATE");
 

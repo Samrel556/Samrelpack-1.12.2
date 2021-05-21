@@ -57,11 +57,6 @@ for oreDictEntry in allEntries{
 
 // Removing unnecessary recipes
 
-forgeHammer.findRecipe(24, [<ore:blockMithril>.firstItem], null).remove();
-forgeHammer.findRecipe(24, [<ore:blockAluminum>.firstItem], null).remove();
-forgeHammer.findRecipe(24, [<minecraft:snow>], null).remove();
-forgeHammer.findRecipe(24, [<refinedstorage:quartz_enriched_iron_block>], null).remove();
-compressor.findRecipe(2, [<refinedstorage:quartz_enriched_iron>*9], null).remove();
 
 // Fixing Tough ingots to Blocks
 
