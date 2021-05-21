@@ -288,7 +288,7 @@ val circuitIV = <ore:circuitElite>;
     // Control Circuit Base
     recipes.remove(<aunis:circuit_control_base>);
     circuitAssembler.recipeBuilder()
-        .inputs([crystalYellow, crystalBlue, crystalRed, crystalEnder, circuitIV*4, <gregtech:meta_item_2:32476>*4, wireFineNaquadahAlloy*4])
+        .inputs([crystalYellow, crystalBlue, crystalRed, crystalEnder, circuitIV*4, wireFineNaquadahAlloy*4])
         .fluidInputs(<liquid:silicon_molten_white>*1000)
         .outputs(<aunis:circuit_control_base>)
         .duration(400).EUt(7920).buildAndRegister();
