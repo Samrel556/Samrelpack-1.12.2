@@ -27,7 +27,7 @@ val plateDenseNaquadah = <gregtech:meta_item_1:13307>;
 val plateDenseNaquadahAlloy = <gregtech:meta_item_1:13308>;
 val rodNaquadahAlloy = <gregtech:meta_item_1:14308>;
 val rodSteel = <gregtech:meta_item_1:14184>;
-val blockNaquadah = <gregtech:compressed_14:6>;
+val blockNaquadah = <gregtech:meta_block_compressed_19:3>;
 val wireFineNaquadahAlloy = <ore:wireFineNaquadahAlloy>;
 val fieldGeneratorEV = <gregtech:meta_item_1:32673>;
 val fieldGeneratorIV = <gregtech:meta_item_1:32674>;
@@ -288,7 +288,7 @@ val circuitIV = <ore:circuitElite>;
     // Control Circuit Base
     recipes.remove(<aunis:circuit_control_base>);
     circuitAssembler.recipeBuilder()
-        .inputs([crystalYellow, crystalBlue, crystalRed, crystalEnder, circuitIV*4, <gregtech:meta_item_2:32476>*4, wireFineNaquadahAlloy*4])
+        .inputs([crystalYellow, crystalBlue, crystalRed, crystalEnder, circuitIV*4, wireFineNaquadahAlloy*4])
         .fluidInputs(<liquid:silicon_molten_white>*1000)
         .outputs(<aunis:circuit_control_base>)
         .duration(400).EUt(7920).buildAndRegister();
