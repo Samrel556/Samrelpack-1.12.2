@@ -1,9 +1,11 @@
 // Gregtech Recipes
-
+val macerator = mods.gregtech.recipe.RecipeMap.getByName("macerator");
 
 
 // Gregtech machines
 
+//Macerator
+    macerator.findRecipe(6, [<minecraft:log:0>], null).remove();
 
 
 // Crafting Recipes
