@@ -410,7 +410,7 @@ recipes.addShaped(<thermaldynamics:servo:4>,
 ,[plateEnderium,redstone,plateEnderium]]);
 recipes.addShaped(<thermaldynamics:servo:4>,
 [[wrench,<gregtech:meta_item_1:32634>,screwdriver]
-,[plateEnderium,<thermaldynamics:servo:0>,plateEnderium]]);
+,[plateEnderium,<thermaldynamics:servo:3>,plateEnderium]]);
 
 // Filter
 recipes.remove(<thermaldynamics:filter:0>);
