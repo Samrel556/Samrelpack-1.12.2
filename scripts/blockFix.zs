@@ -60,5 +60,3 @@ for oreDictEntry in allEntries{
 
 // Fixing Tough ingots to Blocks
 
-compressor.findRecipe(2, [<nuclearcraft:alloy:1>*9], null).remove();
-compressor.recipeBuilder().inputs(<ore:ingotTough>*9).outputs(<ore:blockTough>.firstItem).duration(400).EUt(2).buildAndRegister();
