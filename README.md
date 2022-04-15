@@ -1,7 +1,7 @@
 #SamrelPack-1.12.2
 
 Minecraft Version 1.12.2
-Forge Version 14.23.5.2854
+Forge Version 14.23.5.2859
 
 To create a playable instance:
 
