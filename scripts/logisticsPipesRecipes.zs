@@ -323,7 +323,7 @@ recipes.addShaped(<logisticspipes:program_compiler>,
     // Module Upgrade
     recipes.remove(<logisticspipes:upgrade_module_upgrade>);
     recipes.addShaped(<logisticspipes:upgrade_module_upgrade>,
-    [[plateRedAlloy,<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:upgrade_moduleupgrade"}), plateRedAlloy]
+    [[plateRedAlloy,<logisticspipes:logistics_programmer>.withTag({LogisticsRecipeTarget: "logisticspipes:upgrade_module_upgrade"}), plateRedAlloy]
     ,[plateGold,chipAdvanced,plateGold]
     ,[paper,foilGold,paper]]);
 
